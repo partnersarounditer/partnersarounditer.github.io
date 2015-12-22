@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Guichet Fermé
+author: Sogeti High Tech
+weblink: http://www.sogeti.com
+website: www.sogeti.com
+logo: /assets/images/logos/sogeti.jpg
 ---
 
 

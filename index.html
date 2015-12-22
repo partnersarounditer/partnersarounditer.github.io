@@ -1,16 +1,26 @@
 ---
-layout: default
+layout: front-page
 ---
-<h1>Welcome to Partners Around Iter</h1>
+
+<div class="front-page-hero">
+    <div class="front-page-welcome">
+      <h1>Welcome to Partners Around Iter</h1>
+    </div>
+</div>
+
+<div class="container">
 <section class="intro">
   <h2>Helping You Succeed in your Iter Project</h2>
-<div class="president-photo"><img src="http://placehold.it/300x300?text=Photo of President"/></div>
-<div class="intro-text"><blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</blockquote><cite>Pascal Weil - PAI President</cite></div>
+  <hr><br>
+  <div class="president-photo"><img src="http://placehold.it/300x300?text=Photo of President"/></div>
+
+  <div class="intro-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia.</p>
+  <cite>Pascal Weil - PAI President</cite></div>
 </section>
 
 <section class="front-page-info">
@@ -23,7 +33,22 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</blockq
   </ul>
 </section>
 
+<section class="latest-news-item">
+<h2>Latest News</h2>
+<ul>
+  {% for post in site.posts | limit: 1 %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    </li>
+    {{ post.date | date: "%B %e, %Y" }}
+    {{ post.excerpt | truncatewords: 25 }}
+    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+  {% endfor %}
+</ul>
+</section>
+
 <section class="front-page-logos">
   <h2>PAI Members</h2>
-  <img src="http://placehold.it/1400x500?text=Partner Logos">
+  <img src="/assets/images/logos/logos1.jpg">
 </section>
+</div>

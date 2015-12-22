@@ -9,5 +9,5 @@ layout: default
 <h3>Contact information:</h3>
 <p>{{ page.contact }}</p>
 <p>{{ page.tel }}</p>
-<p>{{ page.email }}</p>
-<p>{{ page.website }}</p>
+<a href="mailto:{{ page.email }}"><p>{{ page.email }}</p></a>
+<a href="{{ page.link }}" target="_blank">{{ page.website }}</a>

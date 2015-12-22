@@ -9,5 +9,8 @@ layout: default
     {{ content }}
   </div>
 
+  <p>Submitted by: {{ page.author }}</p>
+  <a href="{{ page.weblink }}" target="_blank"><img src="{{ page.logo }}" class="news-logo"></a>
+
   {% include disqus.html %}
 </article>

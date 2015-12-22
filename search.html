@@ -16,14 +16,15 @@ var JEKYLL_POSTS = [];
 	}); 
 {% endfor %}
 
-{% for page in site.html_pages %}
+  {% for page in site.html_pages %}
+    {% if page.title != "News" %}
 	JEKYLL_POSTS.push({
 		title: "{{ page.title }}",
 		link: "{{ page.url | prepend: site.baseurl }}",
 		content: "{{ page.content | strip_newlines | strip_html }}"
 	}); 
-{% endfor %}
-
+	{% endif %}
+  {% endfor %}
 
 </script>
 

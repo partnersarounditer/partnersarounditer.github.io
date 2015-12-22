@@ -7,6 +7,10 @@
 
 @import "reset";
 @import "variables";
+@import "bourbon/bourbon";
+@import "grid-settings";
+@import "neat/neat";
+
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -18,20 +22,21 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 $nunito;
+  font-weight: 300;
   color: $darkGray;
 }
 
 .container {
-  margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
-  width: 100%;
+  @include outer-container;
+  padding: 20px;
+  @include media($mobile) {
+    padding: 0 16px;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $montserrat;
   color: $darkerGray;
   font-weight: bold;
 
@@ -83,7 +88,7 @@ ul, ol {
 }
 
 ul {
-  list-style-type: disc;
+  list-style-type: none;
 }
 
 ol {
@@ -146,17 +151,17 @@ img {
 /* LAYOUT / SECTIONS */
 /*********************/
 
-//
+// Front-page
 // .masthead
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  background: $lightGray;
+  border-top: 6px solid $pai-gray;
 }
 
 .masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  padding: 20px 0 0 0;
 
   @include mobile {
     text-align: center;
@@ -165,56 +170,27 @@ img {
 
 .site-avatar {
   float: left;
-  width: 70px;
-  height: 70px;
-  margin-right: 15px;
+  width: 200px;
 
   @include mobile {
     float: none;
     display: block;
     margin: 0 auto;
-  }
-
-  img {
-    border-radius: 5px;
-  }
-}
-
-.site-info {
-  float: left;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-.site-name {
-  margin: 0;
-  color: $darkGray;
-  cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 28px;
-  letter-spacing: 1px;
-}
-
-.site-description {
-  margin: -5px 0 0 0;
-  color: $gray;
-  font-size: 16px;
-
-  @include mobile {
-    margin: 3px 0;
   }
 }
 
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
   font-size: 18px;
+  a:hover {
+      color: $pai-green;
+    }
+
+  .search-form {
+    margin-left: 120px;
+    margin-top: 20px;
+  }
 
   @include mobile {
     float: none;
@@ -228,11 +204,8 @@ nav {
     color: $darkGray;
     text-align: right;
     font-weight: 300;
-    letter-spacing: 1px;
-
     @include mobile {
       margin: 0 10px;
-      color: $blue;
     }
   }
 }
@@ -240,6 +213,53 @@ nav {
 //
 // .main
 //
+
+.front-page-hero {
+  background: url("/assets/images/iterbynight_croux.jpg") no-repeat;
+  background-size: 100%;
+  padding: 60px 0;
+}
+
+.front-page-hero h1 {
+  color: $white;
+  font-size: 42px;
+  text-shadow: 2px 2px 1px $black;
+}
+
+.front-page-welcome {
+  @include outer-container;
+}
+
+.president-photo {
+  @include span-columns(4 of 12);
+  @include media($mobile) {
+    @include span-columns(12 of 12);
+    padding: 0 60px;
+    margin: 0 auto;
+  }
+}
+
+.intro-text {
+  @include span-columns(8);
+   @include media($mobile) {
+    @include span-columns(12 of 12);
+  }
+}
+
+.front-page-info {
+  @include span-columns(12);
+  ul {
+    list-style-type: disc;
+  }
+}
+
+.front-page-logos {
+  @include span-columns(12);
+}
+
+.latest-news-item {
+  @include span-columns(12 of 12);
+}
 
 .posts > .post {
   padding-bottom: 2em;
@@ -266,7 +286,7 @@ nav {
   }
 
   .read-more {
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-size: 15px;
   }
 }
@@ -283,6 +303,12 @@ footer {
   text-align: center;
 }
 
+// NEWS //
+
+.news-logo {
+  max-width: 90%;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "highlights";
+//@import "highlights";

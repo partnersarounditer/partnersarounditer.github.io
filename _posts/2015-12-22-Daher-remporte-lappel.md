@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Daher remporte l'appel d'offres du projet nucléaire mondial Iter
+author: Daher
+weblink: http://www.daher.com
+website: www.daher.com
+logo: /assets/images/logos/daher.jpg
 ---
 
 

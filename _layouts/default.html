@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
 
     {% include meta.html %}
 
@@ -11,7 +11,8 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Montserrat:400,700" type="text/css" rel="stylesheet"/>
+    <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
@@ -20,22 +21,18 @@
       <div class="container">
         <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
           <nav>
-            <a href="{{ site.baseurl }}/contacts">Contacts</a>
-            <a href="{{ site.baseurl }}/services">Services</a>
-            <a href="{{ site.baseurl }}/news">News</a>
-             <a href="{{ site.baseurl }}/links">Links</a>
+            <a href="{{ site.baseurl }}/contacts">CONTACTS</a>
+            <a href="{{ site.baseurl }}/services">SERVICES</a>
+            <a href="{{ site.baseurl }}/news">NEWS</a>
+             <a href="{{ site.baseurl }}/links">LINKS</a>
+              <div class="search-form">
+                <form action="/search.html" method="GET">
+                  <label for="query"><img src="/assets/images/search.png"></label>
+                  <input type="text" name="query" placeholder="">
+                </form>
+              </div>
           </nav>
-          <form action="/search.html" method="GET">
-            <label for="query">Search:</label>
-            <input type="text" name="query" placeholder="Enter your search term">
-          </form>
         </header>
       </div>
     </div>
