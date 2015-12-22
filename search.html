@@ -15,6 +15,16 @@ var JEKYLL_POSTS = [];
 		content: "{{ post.content | strip_newlines | strip_html }}"
 	}); 
 {% endfor %}
+
+{% for page in site.html_pages %}
+	JEKYLL_POSTS.push({
+		title: "{{ page.title }}",
+		link: "{{ page.url | prepend: site.baseurl }}",
+		content: "{{ page.content | strip_newlines | strip_html }}"
+	}); 
+{% endfor %}
+
+
 </script>
 
 <script src="/js/search.js"></script>

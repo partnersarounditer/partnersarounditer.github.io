@@ -27,9 +27,15 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+            <a href="{{ site.baseurl }}/contacts">Contacts</a>
+            <a href="{{ site.baseurl }}/services">Services</a>
+            <a href="{{ site.baseurl }}/news">News</a>
+             <a href="{{ site.baseurl }}/links">Links</a>
           </nav>
+          <form action="/search.html" method="GET">
+            <label for="query">Search:</label>
+            <input type="text" name="query" placeholder="Enter your search term">
+          </form>
         </header>
       </div>
     </div>
@@ -41,7 +47,7 @@
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
-          {% include svg-icons.html %}
+            <p>Copyright Partners Around Iter {{ 'now' | date: "%Y" }}</p>
         </footer>
       </div>
     </div>
