@@ -79,6 +79,7 @@ a {
 	cursor: pointer;
   &:hover, &:active {
     color: $blue;
+    text-decoration: underline;
   }
 }
 
@@ -121,7 +122,6 @@ img {
 }
 
 .date {
-  font-style: italic;
   color: $gray;
 }
 
@@ -218,12 +218,20 @@ nav {
   background: url("/assets/images/iterbynight_croux.jpg") no-repeat;
   background-size: 100%;
   padding: 60px 0;
+  @include media($mobile) {
+    padding: 0 40px;
+    background: none;
+  }
 }
 
 .front-page-hero h1 {
   color: $white;
   font-size: 42px;
   text-shadow: 2px 2px 1px $black;
+   @include media($mobile) {
+    color: $pai-green;
+    text-shadow: none;
+   }
 }
 
 .front-page-welcome {
@@ -303,11 +311,176 @@ footer {
   text-align: center;
 }
 
-// NEWS //
+/////////// NEWS /////////////
+
+.news-home {
+  background: #F2F2F2;
+}
 
 .news-logo {
-  max-width: 90%;
+  width: 300px;
 }
+
+.news-hero {
+  width: 100%;
+  height: 300px;
+  background: url("/assets/images/iter3.jpg") no-repeat;
+  background-size: cover;
+  background-position: 10% 50%;
+}
+
+.opaque-background-green {
+  margin-top: -200px;
+  margin-bottom: 0;
+  max-width: 400px;
+  background: rgba($pai-green, 0.7);
+}
+
+.opaque-background-green h2 {
+  padding: 2px 4px 2px 30px;
+  color: $white;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.previous-news-header {
+  margin-top: 3em;  
+}
+
+.post-list h1, .post h1 {
+  color: $blue;
+  padding-top: 4em;
+}
+
+
+
+
+// PARTNER //
+
+.partner-info ul li {
+  list-style-type: disc;
+}
+
+.posts {
+  margin: 0;
+  background: $white;
+}
+
+.post-list {
+  padding: 0;
+  margin: 0;
+}
+
+.post-list h1 {
+  padding: 0;
+  margin: 0;
+}
+
+// CONTACTS //
+
+.opaque-background {
+  margin-top: 3em;
+  margin-bottom: 0;
+  max-width: 400px;
+  background: $lightGray;
+}
+
+.opaque-background h2 {
+  padding: 2px 4px 2px 30px;
+  color: $black;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.flex-container-1, .flex-container-2, .flex-container-3 {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  @include mobile {
+    flex-direction: column;
+  }
+}
+
+.flex-item-1 {
+  flex-grow: 2;
+  background: url("/assets/images/iter1.jpg") no-repeat;
+  background-size: cover;
+  &:hover {
+    background: url("/assets/images/iter1_dark.jpg") no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+  }
+}
+
+.flex-item-2 {
+  flex-grow: 1.5;
+  background: url("/assets/images/iter2.jpg") no-repeat;
+  &:hover {
+    background: url("/assets/images/iter2_dark.jpg") no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+  }
+}
+
+.flex-item-3 {
+ flex-grow: 1;
+ background: url("/assets/images/iter3.jpg") no-repeat;
+}
+
+.flex-item-4 {
+  flex-grow: 1;
+  background: url("/assets/images/ic7.jpg") no-repeat;
+}
+
+.flex-item-5 {
+  flex-grow: 1;
+  background: url("/assets/images/pit.jpg") no-repeat;
+}
+
+.flex-item-6 {
+  flex-grow: 1;
+  background: url("/assets/images/iter3.jpg") no-repeat;
+}
+
+.flex-item-7 {
+  flex-grow: 1;
+  background: url("/assets/images/iterbynight_croux.jpg") no-repeat;
+}
+
+.flex-item {
+  background-size: cover;
+  height: 200px;
+  color: $white;
+  font-family: $montserrat;
+  line-height: 200px;
+  text-shadow: 2px 2px 1px $black;
+  font-size: 2em;
+  text-align: center;
+  @include mobile {
+    font-size: 1.4em;
+  }
+}
+
+.flex-item {
+  color: $white;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+    color: $white;
+  }
+}
+
+
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start

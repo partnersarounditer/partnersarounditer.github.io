@@ -7,6 +7,7 @@ tel: +33 469 647 250
 email: f.genevey@daher.com
 website: www.daher.com
 link: http://www.daher.com
+logo: daher.jpg
 ---
 
 Daher is an equipment manufacturer that develops Integrated Industrial Systems for aerospace and advanced technologies. By linking its know-how in industrial manufacturing, product and process engineering, logistics and transport, and industrial services, Daher designs and develops value-added solutions for its industrial partners, who benefit from this convergence of industry and services.

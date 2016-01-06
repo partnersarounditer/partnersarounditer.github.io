@@ -4,13 +4,14 @@ layout: default
 
 <article class="post">
   <h1>{{ page.title }}</h1>
-  {{ page.date | date: "%B %e, %Y" }}
+  <span class="date">{{ page.date | date: "%B %e, %Y" }}</span>
   <div class="entry">
     {{ content }}
   </div>
 
-  <p>Submitted by: {{ page.author }}</p>
-  <a href="{{ page.weblink }}" target="_blank"><img src="{{ page.logo }}" class="news-logo"></a>
-
+  <p>Submitted by: <a href="{{ page.weblink }}" target="_blank">{{ page.author }}</a></p>
+  <!--<a href="{{ page.weblink }}" target="_blank"><img src="{{ page.logo }}" class="news-logo"></a>-->
   {% include disqus.html %}
 </article>
+
+ {% include disqus.html %}
