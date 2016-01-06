@@ -215,8 +215,10 @@ nav {
 //
 
 .front-page-hero {
+  
   background: url("/assets/images/iterbynight_croux.jpg") no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position: 40% 62%;
   padding: 60px 0;
   @include media($mobile) {
     padding: 0 40px;
@@ -449,26 +451,51 @@ footer {
 .flex-item-3 {
  flex-grow: 1;
  background: url("/assets/images/iter3.jpg") no-repeat;
+ &:hover {
+    background: url("/assets/images/iter3_dark.jpg") no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+  }
 }
 
 .flex-item-4 {
   flex-grow: 1;
   background: url("/assets/images/ic7.jpg") no-repeat;
+  &:hover {
+    background: url("/assets/images/ic7_dark.jpg") no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+  }
 }
 
 .flex-item-5 {
   flex-grow: 1;
   background: url("/assets/images/pit.jpg") no-repeat;
+  &:hover {
+    background: url("/assets/images/pit_dark.jpg") no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+  }
 }
 
 .flex-item-6 {
   flex-grow: 1;
   background: url("/assets/images/iter3.jpg") no-repeat;
+  &:hover {
+    background: url("/assets/images/iter3_dark.jpg") no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+  }
 }
 
 .flex-item-7 {
   flex-grow: 1;
   background: url("/assets/images/iterbynight_croux.jpg") no-repeat;
+  &:hover {
+    background: url("/assets/images/iterbynight_croux_dark.jpg") no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+  }
 }
 
 .flex-item {
