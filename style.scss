@@ -352,7 +352,23 @@ footer {
   padding-top: 4em;
 }
 
+.news-item {
+  padding: 4em 6em;
+  background: $white;
+}
 
+.opaque-background-green-2 {
+  margin-bottom: 0;
+  max-width: 400px;
+  background: rgba($pai-green, 0.8);
+}
+
+.opaque-background-green-2 h2 {
+  padding: 2px 4px 2px 30px;
+  color: $white;
+  font-weight: 400;
+  margin-bottom: 0;
+}
 
 
 // PARTNER //
@@ -363,7 +379,6 @@ footer {
 
 .posts {
   margin: 0;
-  background: $white;
 }
 
 .post-list {
