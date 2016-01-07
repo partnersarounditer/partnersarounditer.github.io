@@ -16,39 +16,32 @@
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
-  <body class="news-home">
+  <body>
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-          <nav>
-            <a href="{{ site.baseurl }}/contacts">CONTACTS</a>
+      
 
-            <a href="{{ site.baseurl }}/news">NEWS</a>
-             <a href="{{ site.baseurl }}/links">LINKS</a>
+          <ul id="nav-ul">
+            <li><a href="#">CONTACTS</a>
+              <ul>
+                <li><a href="{{ site.baseurl }}/contacts">by Industrial Sectors</a></li>
+                <li><a href="{{ site.baseurl }}/services">by Iter Systems</a></li>
+              </ul>
+            </li>
+            <li><a href="{{ site.baseurl }}/news">NEWS</a></li>
+            <li><a href="{{ site.baseurl }}/links">LINKS</a></li>
+          </ul>
+
+          <br>
               <div class="search-form">
                 <form action="/search.html" method="GET">
                   <label for="query"><img src="/assets/images/search.png"></label>
                   <input type="text" name="query" placeholder="">
                 </form>
-              </div>
-          </nav>
+           
+          </div>
         </header>
       </div>
     </div>
-    <div class="news-hero"></div>
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-            <p>Copyright Partners Around Iter {{ 'now' | date: "%Y" }}</p>
-        </footer>
-      </div>
-    </div>
-
-    {% include analytics.html %}
-  </body>
-</html>

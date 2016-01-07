@@ -116,6 +116,10 @@ img {
   max-width: 100%;
 }
 
+table, th, td {
+   
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
@@ -179,40 +183,75 @@ img {
   }
 }
 
-nav {
+#nav-ul, #nav-ul ul {
+  color: $black;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-size: 18px;
   a:hover {
       color: $pai-green;
-    }
-
-  .search-form {
-    margin-left: 120px;
-    margin-top: 20px;
-  }
-
-  @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  }
-
-  a {
-    margin-left: 20px;
-    color: $darkGray;
-    text-align: right;
-    font-weight: 300;
-    @include mobile {
-      margin: 0 10px;
-    }
-  }
+    }  
 }
 
-//
-// .main
-//
+#nav-ul li{
+display:inline-block;
+position:relative;
+}
+
+#nav-ul ul li{
+display:inherit;
+}
+
+#nav-ul ul{
+width: 300px;
+position:absolute;
+z-index: 1000;
+max-height:0;
+left: 0;
+right: 0;
+overflow:hidden;
+-moz-transition: .8s all .3s;
+-webkit-transition: .8s all .3s;
+transition: .8s all .3s;
+}
+#nav-ul li:hover ul{
+border-radius: 2px;
+max-height:15em;
+width: 300px;
+}
+
+/* background des liens sous menus */
+#nav-ul li:first-child li{
+background: $white;
+padding-left: 20px;
+}
+
+
+/* les a href */
+
+#nav-ul a{
+display:block;
+padding:8px 24px;
+@include mobile {
+  padding: 0;
+}
+}
+
+#nav-ul ul a{
+padding:8px 0;
+}
+#nav-ul li:hover li a {
+text-transform:inherit;
+}
+
+#nav-ul li:hover a, #nav-ul li li:hover a{
+
+}
+
+//////////// .main /////////////
 
 .front-page-hero {
   
@@ -265,6 +304,11 @@ nav {
 
 .front-page-logos {
   @include span-columns(12);
+}
+
+.home-page-table td {
+  max-width: 200px;
+  max-height: 100px;
 }
 
 .latest-news-item {
@@ -521,8 +565,37 @@ footer {
   }
 }
 
+////////// SERVICES //////////
 
+.services-button {
+  background: $blue;
+  cursor: pointer;
+  height: 60px;
+  color: $white;
+  font-family: $nunito;
+  font-weight: 300;
+  font-size: 1.1em;
+  padding-left: 20px;
+  z-index: 0;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  border: none;
+  border-radius: 5px;
+}
 
+.services-button span {
+  position: relative;
+  bottom: 12px;
+}
+
+.iter-icon {
+  height: 50px;
+  width: auto;
+  padding-left: 14px;
+  z-index: 1;
+  position: relative;
+  top: 3px;
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
