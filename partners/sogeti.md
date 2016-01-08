@@ -2,7 +2,7 @@
 layout: partner
 title: Sogeti High Tech
 spiel: Engineering excellence & Digital Manufacturing
-contact: Christophe Vasseur
+contact: Christophe VASSEUR
 tel: +33 1 40 93 73 23
 email: christophe.vasseur@sogeti.com
 website: www.sogeti-hightech.fr/en/our-services/sectors/energy/

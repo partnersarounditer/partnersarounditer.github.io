@@ -2,7 +2,7 @@
 layout: partner
 title: Dassault Systemes
 spiel: Creating a Sustainable Competitive Edge Through Innovation
-contact: Cyrille Froissart
+contact: Cyrille FROISSART
 tel: +33 1 6162 7323
 email: cyrille.froissart@3ds.com
 website: www.3ds.com/products-services/delmia/

@@ -183,13 +183,16 @@ table, th, td {
   }
 }
 
+#nav-ul {
+  margin-top: 23px; // @TODO: Vertically middle align
+}
+
 #nav-ul, #nav-ul ul {
   color: $black;
   padding: 0;
-  margin: 0;
   list-style-type: none;
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  //margin-top: 23px; // @TODO: Vertically middle align
   font-size: 18px;
   a:hover {
       color: $pai-green;
@@ -206,7 +209,8 @@ display:inherit;
 }
 
 #nav-ul ul{
-width: 300px;
+margin-top: 10px;
+width: 220px;
 position:absolute;
 z-index: 1000;
 max-height:0;
@@ -217,10 +221,11 @@ overflow:hidden;
 -webkit-transition: .8s all .3s;
 transition: .8s all .3s;
 }
-#nav-ul li:hover ul{
+
+#nav-ul li:hover ul {
 border-radius: 2px;
 max-height:15em;
-width: 300px;
+width: 220px;
 }
 
 /* background des liens sous menus */
@@ -229,7 +234,6 @@ background: $white;
 padding-left: 20px;
 }
 
-
 /* les a href */
 
 #nav-ul a{
@@ -237,19 +241,17 @@ display:block;
 padding:8px 24px;
 @include mobile {
   padding: 0;
-}
+  }
 }
 
-#nav-ul ul a{
+#nav-ul ul a {
 padding:8px 0;
 }
+
 #nav-ul li:hover li a {
 text-transform:inherit;
 }
 
-#nav-ul li:hover a, #nav-ul li li:hover a{
-
-}
 
 //////////// .main /////////////
 
@@ -575,8 +577,7 @@ footer {
   font-family: $nunito;
   font-weight: 300;
   font-size: 1.1em;
-  padding-left: 20px;
-  z-index: 0;
+  //padding-left: 20px;
   margin-top: 1em;
   margin-bottom: 2em;
   border: none;

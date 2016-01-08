@@ -2,7 +2,7 @@
 layout: partner
 title: ENGIE
 spiel: MASTERING THE FRENCH NUCLEAR ENVIRONMENT FOR ENGINEERING & INSTALLATION 
-contact: Pascal Weil
+contact: Pascal WEIL
 tel: +33 6 78 06 25 07
 email: pascal.weil@engie.com
 website: www.engie-axima.fr

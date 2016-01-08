@@ -2,7 +2,7 @@
 layout: partner
 title: INGENIERIE ET CONSEILS
 spiel: 
-contact: Thomas Sala
+contact: Thomas SALA
 tel: +33 6 80 48 95 78
 email: sala.ing-conseils@orange.fr
 website: www.ingenierie-conseils.eu

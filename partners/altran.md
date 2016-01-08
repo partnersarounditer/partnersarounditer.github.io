@@ -2,7 +2,7 @@
 layout: partner
 title: Altran
 spiel: Innovation Makers
-contact: Pierre-Jean Gonnet
+contact: Pierre-Jean GONNET
 tel: +33 6 73 00 92 65
 email: pierre-jean.gonnet@altran.com
 website: www.altran.com

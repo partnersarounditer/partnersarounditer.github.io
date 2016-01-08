@@ -2,7 +2,7 @@
 layout: partner
 title: Onet Technologies
 spiel: Genuine Engineering Solutions for nuclear inspection, maintenance, assembly and waste management, tailored to the French regulation and codes.
-contact: Lauris Bonnet
+contact: Lauris BONNET
 tel: +33 6 48 16 86 45
 email: lbonnet@onet.fr
 website: fr.groupeonet.com/Onet-Technologies

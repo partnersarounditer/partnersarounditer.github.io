@@ -2,7 +2,7 @@
 layout: partner
 title: VINCI Energies
 spiel: VINCI Energies Nuclear delivers expertise across the whole nuclear chain.
-contact: Bruno Bonhomme
+contact: Bruno BONHOMME
 tel: +33 4 56 45 70 00
 email: bruno.bonhomme@cegelec.com
 website: www.vinci-energies.com/en

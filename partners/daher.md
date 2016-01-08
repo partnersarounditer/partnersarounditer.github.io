@@ -2,7 +2,7 @@
 layout: partner
 title: Daher
 spiel: Shaping Industrial Intelligence
-contact: François Genevey
+contact: François GENEVEY
 tel: +33 469 647 250
 email: f.genevey@daher.com
 website: www.daher.com

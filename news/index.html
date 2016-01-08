@@ -7,7 +7,7 @@ title: News
 </div>
 <div class="posts">
 
-  <ul class="post-list">
+ 
     <div class="news-item">
       <!-- This loops through the paginated posts -->
       {% for post in paginator.posts %}
@@ -28,9 +28,11 @@ title: News
     <div class="opaque-background-green-2">
       <h2 class="previous-news-header">Previous News Items</h2>
     </div>
+
+    <div class="news-item">
     {% for post in paginator.posts %}
     {% if forloop.index > 1 %}
-    <div class="news-item">
+    
       <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
       <p class="author">
         <span class="date">{{ post.date | date: "%B %e, %Y" }}</span>
@@ -42,7 +44,6 @@ title: News
       {% endif %}
       {% endfor %}
     </div>
-    <br>
     <br>
     <!-- Pagination links -->
     {% if paginator.total_pages > 1 %}
@@ -61,5 +62,5 @@ title: News
     </div>
     {% endif %}
     
-  </ul>
+ 
 </div>
