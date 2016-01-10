@@ -10,8 +10,7 @@ layout: front-page
 
 <div class="container">
 <section class="intro">
-  <h2>For your iter success.</h2>
-  <hr><br>
+
   <div class="president-photo"><img src="http://placehold.it/300x300?text=Photo of President"/></div>
 
   <div class="intro-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
