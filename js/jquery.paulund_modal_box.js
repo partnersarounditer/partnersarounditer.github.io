@@ -61,7 +61,7 @@
 				'display':'block',
 				'height':'50px',
 				'width':'50px',
-				'background': 'url(/assets/images/fileclose.png) no-repeat',
+				'background': 'url(/assets/images/fileclose1.png) no-repeat',
 			});
                         /*Block page overlay*/
 			var pageHeight = $(document).height();

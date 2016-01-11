@@ -543,80 +543,122 @@ footer {
   background: url("/assets/images/iter1.jpg") no-repeat;
   background-size: cover;
   &:hover {
-    background: url("/assets/images/iter1_dark.jpg") no-repeat;
-    background-size: cover;
-    transition: 0.3s;
+    background-size: 130%;
+    background-position: 76% 30%;
+    transition: 0.4s;
   }
 }
 
 .flex-item-2 {
   flex-grow: 1.5;
-  background: url("/assets/images/iter2.jpg") no-repeat;
+  background: url("/assets/images/final_pour.jpg") no-repeat;
+  background-size: cover;
   &:hover {
-    background: url("/assets/images/iter2_dark.jpg") no-repeat;
-    background-size: cover;
-    transition: 0.3s;
+    background-size: 160%;
+    background-position: 50% 50%;
+    transition: 0.4s;
   }
 }
 
 .flex-item-3 {
  flex-grow: 1;
- background: url("/assets/images/iter3.jpg") no-repeat;
+ background: url("/assets/images/7755.jpg") no-repeat;
+ background-size: cover;
+ background-position: center top;
  &:hover {
-    background: url("/assets/images/iter3_dark.jpg") no-repeat;
-    background-size: cover;
-    transition: 0.3s;
+    background-size: 110%;
+    background-position: center;
+    transition: 0.4s;
   }
 }
 
 .flex-item-4 {
   flex-grow: 1;
-  background: url("/assets/images/ic7.jpg") no-repeat;
+  background: url("/assets/images/ic5.jpg") no-repeat;
+  background-size: cover;
   &:hover {
-    background: url("/assets/images/ic7_dark.jpg") no-repeat;
-    background-size: cover;
-    transition: 0.3s;
+    background-size: 110%;
+    background-position: center;
+    transition: 0.4s;
   }
 }
 
 .flex-item-5 {
   flex-grow: 1;
-  background: url("/assets/images/pit.jpg") no-repeat;
+  background: url("/assets/images/maud.jpg") no-repeat;
+  background-size: cover;
   &:hover {
-    background: url("/assets/images/pit_dark.jpg") no-repeat;
-    background-size: cover;
+    background-size: 110%;
     transition: 0.3s;
+    background-position: bottom center;
   }
 }
 
 .flex-item-6 {
   flex-grow: 1;
-  background: url("/assets/images/iter3.jpg") no-repeat;
+  background: url("/assets/images/dsc.jpg") no-repeat;
+  background-size: cover;
   &:hover {
-    background: url("/assets/images/iter3_dark.jpg") no-repeat;
-    background-size: cover;
-    transition: 0.3s;
+    background-size: 200%;
+    background-position: center bottom;
+    transition: 0.4s;
   }
 }
 
 .flex-item-7 {
   flex-grow: 1;
-  background: url("/assets/images/iterbynight_croux.jpg") no-repeat;
+  background: url("/assets/images/industeel_1a.jpg") no-repeat;
+  background-size: cover;
+  background-position: 50% 0%;
   &:hover {
-    background: url("/assets/images/iterbynight_croux_dark.jpg") no-repeat;
-    background-size: cover;
+    background-size: 140%;
+    background-position: 50% 0%;
+    transition: 0.4s;
+  }
+}
+
+.flex-item-8 {
+  flex-grow: 1;
+  background: url("/assets/images/roof_night.jpg") no-repeat;
+  background-size: cover;
+  &:hover {
+    background-size: 120%;
+    background-position: 0% 100%;
+    transition: 0.4s;
+  }
+}
+
+.flex-item-9 {
+  flex-grow: 1;
+  background: url("/assets/images/tokamak_pit_snow.jpg") no-repeat;
+  background-size: cover;
+      background-position: center;
+  &:hover {
+    background-position: center;
+    background-size: 200%;
+    transition: 0.4s;
+  }
+}
+
+.flex-item-10 {
+  flex-grow: 1;
+  background: url("/assets/images/transfo_install.jpg") no-repeat;
+   background-size: cover;
+  &:hover {
+    background-size: 110%;
+    background-position: 0% 100%;
     transition: 0.3s;
   }
 }
 
 .flex-item {
-  background-size: cover;
+
   height: 200px;
   color: $white;
   font-family: $montserrat;
-
+  font-weight: 300;
   text-shadow: 2px 2px 1px $black;
-  font-size: 1.8em;
+  font-size: 30px;
   text-align: center;
   @include mobile {
     font-size: 1.4em;
@@ -634,7 +676,7 @@ footer {
 
 .contact-background li {
   background: rgba($pai-green, 0.8);
-  margin-top: 156px;
+  margin-top: 159px;
 }
 
 @media (max-width: 640px ) {
