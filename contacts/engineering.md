@@ -13,5 +13,5 @@ title: Engineering
 * [ENGIE](/partners/engie.html)
 * [INGÉNIERIE ET CONSEILS](/partners/ingenierie-et-conseils.html)
 * [SCHNEIDER ELECTRIC](/partners/schneider-electric.html)
-* [SOGETI HIGH TECH](/partners/sogeti.html)
+* [SOGETI HIGH TECH](/partners/contacts-sogeti.html)
 * [VINCI ENERGIES](/partners/vinci-energies.html)

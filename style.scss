@@ -657,7 +657,11 @@ footer {
   //padding-left: 20px;
   margin: 0.5em 0.2em;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px $darkerGray;
+  &:hover {
+    background: darken($blue, 20%);
+  }
 }
 
 .services-button span {
@@ -676,18 +680,36 @@ footer {
 
 .paulund_modal_box { 
         position:absolute; 
-        left: 30%;
-        top: 20%;
+        left: 24%;
+        top: 24%;
         display:none;
         height: auto;
         width: parent;
-        border:1px solid #fff;
+        max-width: 900px;
         box-shadow: 0px 2px 7px #292929;
         -moz-box-shadow: 0px 2px 7px #292929;
         -webkit-box-shadow: 0px 2px 7px #292929;
         z-index:50;
-        padding: 1em;
         background: $white;
+        padding-top: 0;
+        padding: 0;
+}
+
+.modal-title {
+  font-size: 32px;
+  color: $white;
+  text-shadow: 1px 1px 1px $black;
+  background: rgba($pai-green, 1);
+  margin: 0;
+  padding:0;
+  padding-left: 1em;
+  width: parent;
+  letter-spacing: 2.6px;
+}
+
+.modal_box_inner {
+  background: $lightGray;
+  padding: 2em;
 }
 
 //// PARTNER INFO /////

@@ -86,7 +86,7 @@
 		}
 		 		
 		 function add_popup_box(){
-			 var pop_up = $('<div class="paulund_modal_box"><a href="#" class="paulund_modal_close"></a><h2 class="modal-title">' + options.title + '</h2>' + options.description + '</div>');
+			 var pop_up = $('<div class="paulund_modal_box"><a href="#" class="paulund_modal_close"></a><h2 class="modal-title">' + options.title + '</h2><div class="modal_box_inner">' + options.description + '</div></div>');
 			 $(pop_up).appendTo('.paulund_block_page');
 			 			 
 			 $('.paulund_modal_close').click(function(){
