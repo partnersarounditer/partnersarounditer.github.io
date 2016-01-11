@@ -2,12 +2,20 @@
 layout: default
 ---
 
-<img src="/assets/images/logos/{{ page.logo }}" width="300">
-<h2>{{ page.spiel }}</h2>
-<div class="partner-info">{{ content }}</div>
+<div class="partner-info">
+	<img class="partner-logo" src="/assets/images/logos/{{ page.logo }}" width="300">
+	<h2>{{ page.spiel }}</h2>
+	{{ content }}
+</div>
 
-<h3>Contact information:</h3>
-<p>{{ page.contact }}</p>
-<p>{{ page.tel }}</p>
-<a href="mailto:{{ page.email }}"><p>{{ page.email }}</p></a>
-<a href="{{ page.link }}" target="_blank">{{ page.website }}</a>
+<div class="contact-card">
+  <div class="opaque-background-green-2">
+    <h3>Contact information :</h3>
+  </div>
+  <div class="contact-card-info">
+    <p>{{ page.contact }}</p>
+	<p>{{ page.tel }}</p>
+	<p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
+	<p><a href="{{ page.link }}" target="_blank">{{ page.website }}</a></p>
+  </div>
+</div>

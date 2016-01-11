@@ -265,6 +265,10 @@ text-transform:inherit;
 
 //////////// .main /////////////
 
+section {
+  margin-bottom: 3em;
+}
+
 .front-page-hero {
   
   background: url("/assets/images/iterbynight_croux.jpg") no-repeat;
@@ -303,6 +307,7 @@ text-transform:inherit;
 }
 
 .president-photo {
+  margin-bottom: 3em;
   @include span-columns(4 of 12);
   @include media($mobile) {
     @include span-columns(12 of 12);
@@ -319,6 +324,7 @@ text-transform:inherit;
 }
 
 .front-page-info {
+  font-size: 20px;
   @include span-columns(12);
   ul {
     list-style-type: disc;
@@ -338,7 +344,6 @@ text-transform:inherit;
 
 .front-page-info-points ul li {
   margin: 1.4em 0 1.4em 0;
-  font-size: 20px;
 }
 
 .front-page-logos {
@@ -609,7 +614,7 @@ footer {
   height: 200px;
   color: $white;
   font-family: $montserrat;
-  line-height: 200px;
+
   text-shadow: 2px 2px 1px $black;
   font-size: 2em;
   text-align: center;
@@ -624,6 +629,17 @@ footer {
   &:hover {
     text-decoration: none;
     color: $white;
+  }
+}
+
+.contact-background li {
+  background: rgba($pai-green, 0.8);
+  margin-top: 150px;
+}
+
+@media (max-width: 640px ) {
+  .contact-background li {
+  margin-top: 165px;
   }
 }
 
@@ -673,6 +689,40 @@ footer {
         padding: 1em;
         background: $white;
 }
+
+//// PARTNER INFO /////
+
+.partner-info {
+   @include span-columns(7 of 12);
+}
+
+.partner-logo {
+  margin-top: 2em;
+}
+
+.contact-card h3 {
+  padding-left: 1em;
+  margin-top: 0;
+  color: $white;
+  text-shadow: 1px 1px 1px $black;
+  font-weight: 400;
+}
+
+.contact-card {
+  margin-top: 14em;
+  background: $lightGray;
+  @include shift(1);
+   @include span-columns(4 of 12);
+ }
+
+ .contact-card-info {
+   padding: 0.4em 1.6em 1.8em 1.6em;
+ }
+
+
+
+
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
