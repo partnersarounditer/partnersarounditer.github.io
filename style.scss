@@ -60,6 +60,11 @@ h2 {
   font-size: 24px;
 }
 
+.h2-shadow {
+  color: $pai-green;
+  text-shadow: 1px 1px 1px $black;
+}
+
 h3 {
   font-size: 20px;
 }
@@ -258,9 +263,6 @@ text-transform:inherit;
   margin-right: 4.5em;
 }
 
-
-
-
 //////////// .main /////////////
 
 .front-page-hero {
@@ -268,7 +270,8 @@ text-transform:inherit;
   background: url("/assets/images/iterbynight_croux.jpg") no-repeat;
   background-size: cover;
   background-position: 40% 62%;
-  padding: 60px 0;
+  padding: 7em 0;
+  padding-bottom: 0;
   @include media($mobile) {
     padding: 0 40px;
     background: none;
@@ -276,9 +279,11 @@ text-transform:inherit;
 }
 
 .front-page-hero h1 {
+  @include outer-container;
+  padding: 0.2em 0;
   color: $white;
-  font-size: 42px;
-  text-shadow: 2px 2px 1px $black;
+  text-shadow: 1px 1px 1px $black;
+  letter-spacing: 2.6px;
    @include media($mobile) {
     color: $pai-green;
     text-shadow: none;
@@ -286,7 +291,15 @@ text-transform:inherit;
 }
 
 .front-page-welcome {
-  @include outer-container;
+  background: rgba($pai-green, 0.7);
+  margin-left: 0;
+ 
+}
+
+.slogan {
+  font-size: 42px;
+  color: $pai-green;
+  text-shadow: 1px 1px 1px $black;
 }
 
 .president-photo {
@@ -312,8 +325,34 @@ text-transform:inherit;
   }
 }
 
+.front-page-info-points {
+ background: $lightGray;
+ padding-top: 0.4em;
+ padding-bottom: 0.4em;
+}
+
+.front-page-info-points ul {
+  margin-top: 0;
+  padding: 1em 1em 1em 4.8em;
+}
+
+.front-page-info-points ul li {
+  margin: 1.4em 0 1.4em 0;
+  font-size: 20px;
+}
+
 .front-page-logos {
   @include span-columns(12);
+}
+
+.home-page-table {
+   margin: 0 auto;
+}
+
+.table-inner {
+  background: $white;
+  margin: 1em 1.5em;
+  padding: 1em;
 }
 
 .home-page-table td {
@@ -395,6 +434,7 @@ footer {
 .opaque-background-green h2 {
   padding: 2px 4px 2px 30px;
   color: $white;
+  text-shadow: 1px 1px 1px $black;
   font-weight: 300;
   margin-bottom: 0;
 }
@@ -422,6 +462,7 @@ footer {
 .opaque-background-green-2 h2 {
   padding: 2px 4px 2px 30px;
   color: $white;
+  text-shadow: 1px 1px 1px $black;
   font-weight: 400;
   margin-bottom: 0;
 }
@@ -448,6 +489,17 @@ footer {
 }
 
 // CONTACTS //
+
+.front-page-welcome-contacts {
+  background: $pai-green;
+  padding: -4em;
+}
+
+.front-page-welcome-contacts h1 {
+  color: $white;
+  text-shadow: 1px 1px 1px $black;
+  letter-spacing: 2.6px;
+}
 
 .opaque-background {
   margin-top: 3em;

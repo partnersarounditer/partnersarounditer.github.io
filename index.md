@@ -4,13 +4,14 @@ layout: front-page
 
 <div class="front-page-hero">
     <div class="front-page-welcome">
-      <h1>Welcome to Partners Around Iter</h1>
+      <h1>For Your Iter Success</h1>
     </div>
 </div>
 
 <div class="container">
 <section class="intro">
-
+  <h2 class="slogan">Welcome to Partners Around Iter</h2>
+  <br>
   <div class="president-photo"><img src="http://placehold.it/300x300?text=Photo of President"/></div>
 
   <div class="intro-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -23,17 +24,37 @@ layout: front-page
 </section>
 
 <section class="front-page-info">
-  <h2>PAI Key Strengths</h2>
-  <ul>
-    <li>Strong local presence</li>
-    <li>Involved with the ITER project, through contracts and/or knowledge of the ITER project</li>
-    <li>Familiar with the French regulatory environment, especially with the nuclear one</li>
-    <li>Multi disciplinary</li>
+  <div class="opaque-background-green-2">
+    <h2>How We Can Help You :</h2>
+  </div>
+  <div class="front-page-info-points">
+    <ul>
+      <li>Strong local presence</li>
+      <li>Involved with the ITER project, through contracts and/or knowledge of the ITER project</li>
+      <li>Familiar with the French regulatory environment, especially with the nuclear one</li>
+      <li>Multi disciplinary</li>
+    </ul>
+  </div>
+</section>
+
+<section class="front-page-info">
+  <div class="opaque-background-green-2">
+    <h2>Contact Us :</h2>
+  </div>
+  <div class="front-page-info-points">
+    <ul>
+    <p>Contact the PAI President:</p>
+    <a href="mailto:contact@partnersarounditer.com">contact@partnersarounditer.com</a>
+    <br>
   </ul>
 </section>
 
 <section class="front-page-logos">
-  <h2>PAI Members</h2>
+    <div class="opaque-background-green-2">
+      <h2>PAI Member Companies :</h2>
+    </div>
+    <div class="front-page-info-points">
+      <div class="table-inner">
     <table class="home-page-table">
       <tr>
         <td><a href="/partners/actemium.html"><img src="assets/images/logos/actemium_small.png"></a><td>
@@ -65,6 +86,7 @@ layout: front-page
         <td><a href="/partners/vinci-energies.html"><img src="assets/images/logos/vinci_energies_small.png"></a></td>
       </tr>
     </table>
-
+  </div>
+  </div>
 </section>
 </div>
