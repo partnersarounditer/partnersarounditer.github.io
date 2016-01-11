@@ -14,12 +14,7 @@ layout: front-page
   <br>
   <div class="president-photo"><img src="http://placehold.it/300x300?text=Photo of President"/></div>
 
-  <div class="intro-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia.</p>
+  <div class="intro-text"><p>&quot;Our long standing and pro-active initiative Partners Around ITER is an effective collaboration between all ITER parties. From support services to operational partnership, thanks to close contact with ITER Agencies, detailed knowledge of the project and effective focal point of contacts, we can support you in maximizing your success and achievements.&quot;</p>
   <cite>Pascal Weil - PAI President</cite></div>
 </section>
 

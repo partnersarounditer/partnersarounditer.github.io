@@ -8,7 +8,7 @@
 
 		var physicalStructure = "<a href='/services/assembly.html'><button class='services-button'><span>Assembly</span><img class='iter-icon' src='/assets/images/icons/ASS.jpg'></button></a>" + "<a href='/services/buildings.html'><button class='services-button'><span>Buildings</span><img class='iter-icon' src='/assets/images/icons/BTP.jpg'></button></a>" + "<a href='/services/engineering-and-services.html'><button class='services-button'><span>Engineering and Services</span><img class='iter-icon' src='/assets/images/icons/IS.jpg'></button></a>";
 
-		var tokamak = "<a href='/services/magnets.html'><button class='services-button'><span>Magnets</span><img class='iter-icon' src='/assets/images/icons/MAG.jpg'></button></a>" + "<a href='/services/vacuum-vessel.html'><button class='services-button'><span>Vacuum Vessel</span><img class='iter-icon' src='/assets/images/icons/VV.jpg'></button></a>" + "<a href='/services/cryostat.html'><button class='services-button'><span>Cryostat</span><img class='iter-icon' src='/assets/images/icons/AUXI.jpg'></button></a>";
+		var tokamak = "<a href='/services/magnets.html'><button class='services-button'><span>Magnets</span><img class='iter-icon' src='/assets/images/icons/MAG.jpg'></button></a>" + "<a href='/services/vacuum-vessel.html'><button class='services-button'><span>Vacuum Vessel</span><img class='iter-icon' src='/assets/images/icons/VV.jpg'></button></a>" + "<a href='/services/cryostat.html'><button class='services-button'><span>Cryostat, Thermal Shield, Vacuum Pumping and Fueling, Cooling Water System</span><img class='iter-icon' src='/assets/images/icons/AUXI.jpg'></button></a>";
 
 		var supportingSystems = "<a href='/services/in-vessel-components.html'><button class='services-button'><span>In Vessel Components</span><img class='iter-icon' src='/assets/images/icons/IVC.jpg'></button></a>" +
 		 						"<a href='/services/remote-handling.html'><button class='services-button'><span>Remote handling</span><img class='iter-icon' src='/assets/images/icons/RH.jpg'></button></a>" + "<br>" +
@@ -32,18 +32,21 @@
 		},prop);
 				
 		return this.click(function(e){
-			options.title = this.innerHTML;
-			if (this.innerHTML === "Physical Structure") {
+			if ($(this).attr("id") === "PSB") {
+				options.title = "Physical Structure";
 				options.description = physicalStructure;
-			} else if (this.innerHTML === "Tokamak") {
+			} else if ($(this).attr("id") === "TB") {
+				options.title = "Tokamak";
 				options.description = tokamak;
 			} else {
+				options.title = "Supporting Systems";
 				options.description = supportingSystems;
 			}
 			
 			add_block_page();
 			add_popup_box();
 			add_styles();
+
 			
 			$('.paulund_modal_box').fadeIn();
 		});

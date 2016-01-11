@@ -1,16 +1,21 @@
 ---
-layout: default
+layout: contact-list
 title: Links
 ---
 
-<h2>Links for further information</h2>
-
-- <a href="http://iter.org">Iter</a>
-- <a href="http://fusionforenergy.europa.eu/">Fusion For Energy</a>
-- [Iter Agence France](http://www.itercad.org/)
-- [Iter China](http://www.iterchina.cn/)
-- [Iter India](https://www.iter-india.org/)
-- [Iter Japan](http://www.naka.jaea.go.jp/ITER/index.php)
-- [Iter Korea](http://www.iterkorea.org/)
-- [Iter Russia](http://iterrf.ru/)
-- [Iter USA](https://www.usiter.org/)
+<div class="opaque-background-green-2">
+<h2>For Further Information :</h2>
+</div>
+<div class="front-page-info-points">
+	<ul>
+	<li><a href="http://iter.org">Iter</a></li>
+	<li><a href="http://fusionforenergy.europa.eu/">Fusion For Energy</a></li>
+	<li><a href="http://www.itercad.org/">Iter Agence France</a></li>
+	<li><a href="http://www.iterchina.cn/">Iter China</a></li>
+	<li><a href="https://www.iter-india.org/">Iter India</a></li>
+	<li><a href="http://www.naka.jaea.go.jp/ITER/index.php">Iter Japan</a></li>
+	<li><a href="http://www.iterkorea.org/">Iter Korea</a></li>
+	<li><a href="http://iterrf.ru/">Iter Russia</a></li>
+	<li><a href="https://www.usiter.org/">Iter USA</a></li>
+	</ul>
+</div>

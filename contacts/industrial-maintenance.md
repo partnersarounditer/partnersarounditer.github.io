@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: contact-list
 title: Industrial Maintenance
 ---
-
-<h1>{{ page.title }}</h1>
 
 * [CNIM](/partners/cnim.html)
 * [ECA ROBOTICS](partners/eca-robotics.html)

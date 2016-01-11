@@ -7,7 +7,7 @@ tel: +33 6 80 48 95 78
 email: sala.ing-conseils@orange.fr
 website: www.ingenierie-conseils.eu
 link: http://www.ingenierie-conseils.eu
-logo: ing-conseils-logo.png
+logo: ing_conseils_small.png
 ---
 
 INGENIERIE ET CONSEILS is a small French company - private limited company (known in France as : Société à responsabilité limitée – SARL) with a capital of 22000 € - based in Aix-en-Provence.

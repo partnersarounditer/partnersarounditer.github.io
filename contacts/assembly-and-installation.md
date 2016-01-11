@@ -1,16 +1,16 @@
 ---
-layout: default
+layout: contact-list
 title: Assembly and Installation
 ---
 
-<h1>{{ page.title }}</h1>
-
-* [ALTRAN](/partners/altran.html)
-* [CNIM](/partners/cnim.html)
-* [ONET TECHNOLOGIES / COMEX NUCLÉAIRE](/partners/onet-technologies.html)
-* [CYBERNÉTIX](/partners/cybernetix.html)
-* [DAHER](/partners/daher.html)
-* [ECA ROBOTICS](partners/eca-robotics.html)
-* [ENGIE](/partners/engie.html)
-* [INGÉNIERIE ET CONSEILS](/partners/ingenierie-et-conseils.html)
-* [VINCI ENERGIES (ex CEGELEC)](/partners/vinci-energies.html)
+<ul>
+<li><a href="/partners/altran.html">ALTRAN</a></li>
+<li><a href="/partners/cnim.html">CNIM</a></li>
+<li><a href="/partners/onet-technologies.html">ONET TECHNOLOGIES</a></li>
+<li><a href="/partners/cybernetix.html">CYBERNÉTIX</a></li>
+<li><a href="/partners/daher.html">DAHER</a></li>
+<li><a href="partners/eca-robotics.html">ECA ROBOTICS</a></li>
+<li><a href="/partners/engie.html">ENGIE</a></li>
+<li><a href="/partners/ingenierie-et-conseils.html">INGÉNIERIE ET CONSEILS</a></li>
+<li><a href="/partners/vinci-energies.html">VINCI ENERGIES</a></li>
+</ul>

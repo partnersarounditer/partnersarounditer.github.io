@@ -616,7 +616,7 @@ footer {
   font-family: $montserrat;
 
   text-shadow: 2px 2px 1px $black;
-  font-size: 2em;
+  font-size: 1.8em;
   text-align: center;
   @include mobile {
     font-size: 1.4em;
@@ -634,7 +634,7 @@ footer {
 
 .contact-background li {
   background: rgba($pai-green, 0.8);
-  margin-top: 150px;
+  margin-top: 156px;
 }
 
 @media (max-width: 640px ) {

@@ -4,7 +4,7 @@ title: Schneider Electric
 spiel: Life Is On
 contact: Dominique BOUILLIEZ
 tel: +33 6 08 56 54 40
-email: Dominique.bouilliez@schneider-electric.com
+email: dominique.bouilliez@schneider-electric.com
 website: www.schneider-electric.com
 link: http://www.schneider-electric.com
 logo: schneider-electric.jpg

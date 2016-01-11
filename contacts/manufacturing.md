@@ -1,12 +1,12 @@
 ---
 layout: contact-list
-title: Buildings
+title: Manufacturing
 ---
 
 * [ALTRAN](/partners/altran.html)
-* [APAVE](/partners/apave.html)
 * [CNIM](/partners/cnim.html)
 * [DAHER](/partners/daher.html)
 * [ENGIE](/partners/engie.html)
 * [SCHNEIDER ELECTRIC](/partners/schneider-electric.html)
+* [SOGETI HIGH TECH](/partners/sogeti.html)
 * [VINCI ENERGIES](/partners/vinci-energies.html)
