@@ -586,22 +586,23 @@ footer {
 .flex-item-5 {
   flex-grow: 1;
   background: url("/assets/images/maud.jpg") no-repeat;
-  background-size: cover;
-  background-position: top right;
+   background-size: cover;
+  background-position: 50% 0%;
   &:hover {
-    background-size: 120%;
+     background-size: 140%;
+    background-position: 50% 0%;
     transition: 0.8s;
-    background-position: bottom right;
   }
 }
 
 .flex-item-6 {
   flex-grow: 1;
   background: url("/assets/images/dsc.jpg") no-repeat;
-  background-size: cover;
+   background-size: cover;
+  background-position: 50% 0%;
   &:hover {
-    background-size: 180%;
-    background-position: center bottom;
+    background-size: 140%;
+    background-position: 50% 0%;
     transition: 0.8s;
   }
 }
@@ -613,7 +614,7 @@ footer {
   background-position: 50% 0%;
   &:hover {
     background-size: 140%;
-    background-position: 50% 20%;
+    background-position: 50% 0%;
     transition: 0.8s;
   }
 }
@@ -635,7 +636,7 @@ footer {
   background-size: cover;
       background-position: center;
   &:hover {
-    background-position: 50% 65%;
+    background-position: center;
     background-size: 200%;
     transition: 0.8s;
   }
