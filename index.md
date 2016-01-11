@@ -14,7 +14,7 @@ layout: front-page
   <br>
   <div class="president-photo"><img src="http://placehold.it/300x300?text=Photo of President"/></div>
 
-  <div class="intro-text"><p>&quot;Our long standing and pro-active initiative Partners Around ITER is an effective collaboration between all ITER parties. From support services to operational partnership, thanks to close contact with ITER Agencies, detailed knowledge of the project and effective focal point of contacts, we can support you in maximizing your success and achievements.&quot;</p>
+  <div class="intro-text"><p>&quot;To propose to you an effective collaboration is the focus of the industrial members of Partners Around ITER, based on their daily involvements on the ITER project, their local presence and knowledge of the French nuclear environment. This collaboration can go from support services to operational partnership with one main objective: to be efficient together. The wide range of know-how and expertise of our industrial members can be discovered hereafter. Do not hesitate to contact us.&quot;</p>
   <cite>Pascal Weil - PAI President</cite></div>
 </section>
 
