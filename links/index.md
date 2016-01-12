@@ -4,7 +4,7 @@ title: Links
 ---
 
 <div class="opaque-background-green-2">
-<h2>For Further Information :</h2>
+<h2>For Further Information</h2>
 </div>
 <div class="front-page-info-points">
 	<ul>

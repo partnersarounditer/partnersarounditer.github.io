@@ -20,35 +20,60 @@ PAI members working daily with ITER are fully committed to the success of your p
   <cite>Pascal Weil - PAI President</cite></div>
 </section>
 
-<section class="front-page-info">
-  <div class="opaque-background-green-2">
-    <h2>How We Can Help You :</h2>
+<section class="front-page-marketing">
+
+    <div class="front-page-div">
+    <div class="opaque-background-green-home opaque-background-green-home-1">
+    <h2>Strong Local Presence</h2>
   </div>
-  <div class="front-page-info-points">
     <ul>
-      <li>Strong local presence</li>
-      <li>Involved with the ITER project, through contracts and/or knowledge of the ITER project</li>
-      <li>Familiar with the French regulatory environment, especially with the nuclear one</li>
-      <li>Multi disciplinary</li>
+      <li>18 companies representing over 25 000 employees in the region</li>
+      <li>More than 10 years experience on ITER</li>
+      <li>Knowledge of the local business environment</li>
+    </ul>
+  </div>
+  <div class="front-page-div">
+    <div class="opaque-background-green-home">
+    <h2>French Nuclear Environment Know-how</h2>
+  </div>
+    <ul>
+      <li>Safety and security regulations</li>
+      <li>Significant nuclear references over 50 years</li>
+      <li>Daily implementation of regulations and codes (RCCE, RCCM, ESPN… )</li>
+    </ul>
+  </div>
+  <div class="front-page-div front-page-div-3">
+    <div class="opaque-background-green-home opaque-background-green-home-3">
+      <h2>Multi Skilled Capabilities</h2>
+    </div>
+    <ul>
+      <li>Assembly and installation</li>
+      <li>Engineering</li>
+      <li>Industrial maintenance</li>
+      <li>Information systems</li>
+      <li>Inspection</li>
+      <li>Logistics</li>
+      <li>Manufacturing</li>
     </ul>
   </div>
 </section>
 
 <section class="front-page-info">
   <div class="opaque-background-green-2">
-    <h2>Contact Us :</h2>
+    <h2>Contact Us</h2>
   </div>
   <div class="front-page-info-points">
     <ul>
-    <p>Contact the PAI President:</p>
+    <p>Contact the PAI President :</p>
     <a href="mailto:contact@partnersarounditer.com">contact@partnersarounditer.com</a>
     <br>
   </ul>
+  </div>
 </section>
 
 <section class="front-page-logos">
     <div class="opaque-background-green-2">
-      <h2>PAI Members :</h2>
+      <h2>PAI Members</h2>
     </div>
     <div class="front-page-info-points">
       <div class="table-inner">

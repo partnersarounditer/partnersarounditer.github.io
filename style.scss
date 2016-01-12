@@ -202,11 +202,18 @@ table, th, td {
   a:hover {
       color: $pai-green;
     }  
+  @include mobile {
+    float: none;
+    text-align: center;
+  }
 }
 
 #nav-ul li{
 display:inline-block;
 position:relative;
+@include mobile {
+  padding: 0 0.6em;
+  }
 }
 
 #nav-ul ul li{
@@ -261,6 +268,13 @@ text-transform:inherit;
   text-align: right;
   margin-top: 4.4em;
   margin-right: 4.5em;
+  @include mobile {
+    text-align: center;
+    margin-top: 1em;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 1em;
+  }
 }
 
 //////////// .main /////////////
@@ -277,8 +291,7 @@ section {
   padding: 7em 0;
   padding-bottom: 0;
   @include media($mobile) {
-    padding: 0 40px;
-    background: none;
+    
   }
 }
 
@@ -289,7 +302,6 @@ section {
   text-shadow: 1px 1px 1px $black;
   letter-spacing: 2.6px;
    @include media($mobile) {
-    color: $pai-green;
     text-shadow: none;
    }
 }
@@ -297,7 +309,6 @@ section {
 .front-page-welcome {
   background: rgba($pai-green, 0.7);
   margin-left: 0;
- 
 }
 
 .slogan {
@@ -344,6 +355,66 @@ section {
 
 .front-page-info-points ul li {
   margin: 1.4em 0 1.4em 0;
+}
+
+.front-page-marketing {
+  @include span-columns(12 of 12);
+  ul {
+    padding-left: 50px;
+    list-style-type: disc;
+    height: 301px;
+    li {
+    }
+  }
+}
+
+.front-page-marketing li {
+  padding: 1em 1.2em 1em 0em;
+}
+
+.front-page-div {
+  @include span-columns(4 of 12);
+  background: $lightGray;
+  @include mobile {
+  @include span-columns(12 of 12);
+  margin-bottom: 2em;
+  }
+}
+
+.front-page-div-3 li {
+  padding: 0.5em 1.2em 0.5em 0em;
+}
+.opaque-background-green {
+  margin-top: -200px;
+  margin-bottom: 0;
+  background: rgba($pai-green, 0.7);
+}
+
+.opaque-background-green h2 {
+  padding: 2px 4px 2px 30px;
+  color: $white;
+  text-shadow: 1px 1px 1px $black;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.opaque-background-green-home {
+  margin-bottom: 0;
+  background: rgba($pai-green, 0.7);
+  height: 72px;
+}
+
+.opaque-background-green-home h2 {
+  font-size: 20px;
+  padding: 2px 4px 2px 30px;
+  color: $white;
+  text-shadow: 1px 1px 1px $black;
+  font-weight: 300;
+  margin-bottom: 0;
+  margin: 0;
+}
+.opaque-background-green-home-1 h2, .opaque-background-green-home-3 h2 {
+  line-height: 72px;
 }
 
 .front-page-logos {
@@ -429,21 +500,6 @@ footer {
   background-position: 10% 50%;
 }
 
-.opaque-background-green {
-  margin-top: -200px;
-  margin-bottom: 0;
-  max-width: 400px;
-  background: rgba($pai-green, 0.7);
-}
-
-.opaque-background-green h2 {
-  padding: 2px 4px 2px 30px;
-  color: $white;
-  text-shadow: 1px 1px 1px $black;
-  font-weight: 300;
-  margin-bottom: 0;
-}
-
 .previous-news-header {
   margin-top: 3em;  
 }
@@ -460,7 +516,6 @@ footer {
 
 .opaque-background-green-2 {
   margin-bottom: 0;
-  max-width: 400px;
   background: rgba($pai-green, 0.8);
 }
 
@@ -504,20 +559,6 @@ footer {
   color: $white;
   text-shadow: 1px 1px 1px $black;
   letter-spacing: 2.6px;
-}
-
-.opaque-background {
-  margin-top: 3em;
-  margin-bottom: 0;
-  max-width: 400px;
-  background: $lightGray;
-}
-
-.opaque-background h2 {
-  padding: 2px 4px 2px 30px;
-  color: $black;
-  font-weight: 300;
-  margin-bottom: 0;
 }
 
 .flex-container-1, .flex-container-2, .flex-container-3 {
