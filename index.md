@@ -17,7 +17,7 @@ layout: front-page
   <div class="intro-text"><p>&quot;From support services to operational partnership, effective collaboration on the ITER Project is our focus.
 As locally based B2B companies we can offer you our French nuclear environment know-how and our multi-skilled capabilities.
 PAI members working daily with ITER are fully committed to the success of your project.&quot;</p>
-  <cite>Pascal Weil - PAI President</cite></div>
+  <cite><strong>Pascal Weil - PAI President</strong></cite></div>
 </section>
 
 <section class="front-page-marketing">

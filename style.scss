@@ -280,19 +280,15 @@ text-transform:inherit;
 //////////// .main /////////////
 
 section {
-  margin-bottom: 3em;
+  margin-bottom: 2.8em;
 }
 
 .front-page-hero {
-  
   background: url("/assets/images/iterbynight_croux.jpg") no-repeat;
   background-size: cover;
   background-position: 40% 62%;
   padding: 7em 0;
   padding-bottom: 0;
-  @include media($mobile) {
-    
-  }
 }
 
 .front-page-hero h1 {
@@ -302,7 +298,8 @@ section {
   text-shadow: 1px 1px 1px $black;
   letter-spacing: 2.6px;
    @include media($mobile) {
-    text-shadow: none;
+    font-size: 24px;
+    padding: 0.1em 0.5em;
    }
 }
 
@@ -315,6 +312,10 @@ section {
   font-size: 42px;
   color: $pai-green;
   text-shadow: 1px 1px 1px $black;
+  @include mobile {
+    font-size: 34px;
+    margin-top: 1.6em;
+  }
 }
 
 .president-photo {
@@ -322,8 +323,8 @@ section {
   @include span-columns(4 of 12);
   @include media($mobile) {
     @include span-columns(12 of 12);
-    padding: 0 60px;
-    margin: 0 auto;
+    padding: 0 80px;
+    margin: 0 auto 0.8em 0;
   }
 }
 
@@ -331,6 +332,8 @@ section {
   @include span-columns(8);
    @include media($mobile) {
     @include span-columns(12 of 12);
+    margin-bottom: 2.4em;
+    text-align: justify;
   }
 }
 
@@ -362,8 +365,8 @@ section {
   ul {
     padding-left: 50px;
     list-style-type: disc;
+    @include media(1020px) {
     height: 301px;
-    li {
     }
   }
 }
@@ -401,7 +404,9 @@ section {
 .opaque-background-green-home {
   margin-bottom: 0;
   background: rgba($pai-green, 0.7);
+  @include media(1020px) {
   height: 72px;
+  }
 }
 
 .opaque-background-green-home h2 {
@@ -414,7 +419,6 @@ section {
   margin: 0;
 }
 .opaque-background-green-home-1 h2, .opaque-background-green-home-3 h2 {
-  line-height: 72px;
 }
 
 .front-page-logos {
