@@ -6,8 +6,6 @@
 
 		// Default parameters
 
-		var physicalStructure = "<a href='/services/assembly.html'><button class='services-button'><span>Assembly</span><img class='iter-icon' src='/assets/images/icons/ASS.jpg'></button></a>" + "<a href='/services/buildings.html'><button class='services-button'><span>Buildings</span><img class='iter-icon' src='/assets/images/icons/BTP.jpg'></button></a>" + "<a href='/services/engineering-and-services.html'><button class='services-button'><span>Engineering and Services</span><img class='iter-icon' src='/assets/images/icons/IS.jpg'></button></a>";
-
 		var tokamak = "<div class='first-row'><a href='/services/magnets.html'><button id='magnets' class='services-button'><span>Magnets</span><img class='iter-icon' src='/assets/images/icons/MAG.jpg'></button></a>" + "<a href='/services/vacuum-vessel.html'><button id='vv' class='services-button'><span>Vacuum Vessel</span><img class='iter-icon' src='/assets/images/icons/VV.jpg'></button></a></div>" + "<a href='/services/cryostat.html'><button class='services-button'><span>Cryostat, Thermal Shield, Vacuum Pumping and Fueling, Cooling Water System</span><img class='iter-icon' src='/assets/images/icons/AUXI.jpg'></button></a>";
 
 		var supportingSystems = "<a href='/services/in-vessel-components.html'><button id='ivc' class='services-button'><span>In Vessel Components</span><img class='iter-icon' src='/assets/images/icons/IVC.jpg'></button></a>" +
@@ -20,8 +18,6 @@
 		 						"<a href='/services/tritium-plant.html'><button id='tplant' class='services-button'><span>Tritium Plant, Hot Cell, Waste Storage and Treatment, Radiological Protection</span><img class='iter-icon' src='/assets/images/icons/IS.jpg'></button></a>";
 
 
-		var physicalStructureBtn = document.getElementById("physicalStructureButton");
-
 		var tokamakBtn = document.getElementById("tokamakButton");
 
 		var supportingSystemsBtn = document.getElementById("SupportingSystemsButton");
@@ -32,10 +28,7 @@
 		},prop);
 				
 		return this.click(function(e){
-			if ($(this).attr("id") === "PSB") {
-				options.title = "Physical Structure";
-				options.description = physicalStructure;
-			} else if ($(this).attr("id") === "TB") {
+			if ($(this).attr("id") === "TB") {
 				options.title = "Tokamak";
 				options.description = tokamak;
 			} else {

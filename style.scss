@@ -620,18 +620,19 @@ footer {
 
 .flex-item-8 {
   flex-grow: 1;
-  background: url("/assets/images/roof_night.jpg") no-repeat;
+  background: url("/assets/images/cladding_3a.jpg") no-repeat;
   background-size: cover;
+  background-position: bottom center;
   &:hover {
-    background-size: 120%;
-    background-position: 0% 100%;
+    background-size: 110%;
+    background-position: top center;
     transition: 0.8s;
   }
 }
 
 .flex-item-9 {
   flex-grow: 1;
-  background: url("/assets/images/tokamak_pit_snow.jpg") no-repeat;
+  background: url("/assets/images/hq_close_up.jpg") no-repeat;
   background-size: cover;
       background-position: center;
   &:hover {
@@ -643,11 +644,35 @@ footer {
 
 .flex-item-10 {
   flex-grow: 1;
+  background: url("/assets/images/winding_machine.jpg") no-repeat;
+   background-size: cover;
+   background-position: 50% 70%;
+  &:hover {
+    background-size: cover;
+    background-position: 50% 80%;
+    transition: 0.8s;
+  }
+}
+
+.flex-item-11 {
+  flex-grow: 1;
   background: url("/assets/images/transfo_install.jpg") no-repeat;
    background-size: cover;
   &:hover {
     background-size: 110%;
     background-position: 0% 100%;
+    transition: 0.8s;
+  }
+}
+
+.flex-item-12 {
+  flex-grow: 1;
+  background: url("/assets/images/tokamak_pit_snow.jpg") no-repeat;
+  background-size: cover;
+      background-position: center;
+  &:hover {
+    background-position: 50% 60%;
+    background-size: 200%;
     transition: 0.8s;
   }
 }
