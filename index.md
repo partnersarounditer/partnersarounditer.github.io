@@ -14,7 +14,9 @@ layout: front-page
   <br>
   <div class="president-photo"><img src="http://placehold.it/300x300?text=Photo of President"/></div>
 
-  <div class="intro-text"><p>&quot;To propose to you an effective collaboration is the focus of the industrial members of Partners Around ITER, based on their daily involvements on the ITER project, their local presence and knowledge of the French nuclear environment. This collaboration can go from support services to operational partnership with one main objective: to be efficient together. The wide range of know-how and expertise of our industrial members can be discovered hereafter. Do not hesitate to contact us.&quot;</p>
+  <div class="intro-text"><p>&quot;From support services to operational partnership, effective collaboration on the ITER Project is our focus.
+As locally based B2B companies we can offer you our French nuclear environment know-how and our multi-skilled capabilities.
+PAI members working daily with ITER are fully committed to the success of your project.&quot;</p>
   <cite>Pascal Weil - PAI President</cite></div>
 </section>
 
@@ -46,7 +48,7 @@ layout: front-page
 
 <section class="front-page-logos">
     <div class="opaque-background-green-2">
-      <h2>PAI Member Companies :</h2>
+      <h2>PAI Members :</h2>
     </div>
     <div class="front-page-info-points">
       <div class="table-inner">
