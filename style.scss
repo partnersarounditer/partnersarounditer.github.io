@@ -349,6 +349,9 @@ section {
  background: $lightGray;
  padding-top: 0.4em;
  padding-bottom: 0.4em;
+ @include mobile {
+  font-size: 16px;
+ }
 }
 
 .front-page-info-points ul {
@@ -401,6 +404,22 @@ section {
   margin-bottom: 0;
 }
 
+.opaque-background-green-2 {
+  margin-bottom: 0;
+  background: rgba($pai-green, 0.8);
+}
+
+.opaque-background-green-2 h2 {
+  padding: 2px 4px 2px 30px;
+  color: $white;
+  text-shadow: 1px 1px 1px $black;
+  font-weight: 400;
+  margin-bottom: 0;
+  @include mobile {
+    font-size: 20px;
+  }
+}
+
 .opaque-background-green-home {
   margin-bottom: 0;
   background: rgba($pai-green, 0.7);
@@ -418,6 +437,7 @@ section {
   margin-bottom: 0;
   margin: 0;
 }
+
 .opaque-background-green-home-1 h2, .opaque-background-green-home-3 h2 {
 }
 
@@ -517,20 +537,6 @@ footer {
   padding: 4em 6em;
   background: $white;
 }
-
-.opaque-background-green-2 {
-  margin-bottom: 0;
-  background: rgba($pai-green, 0.8);
-}
-
-.opaque-background-green-2 h2 {
-  padding: 2px 4px 2px 30px;
-  color: $white;
-  text-shadow: 1px 1px 1px $black;
-  font-weight: 400;
-  margin-bottom: 0;
-}
-
 
 // PARTNER //
 
