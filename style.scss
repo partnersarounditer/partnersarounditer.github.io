@@ -357,6 +357,9 @@ section {
 .front-page-info-points ul {
   margin-top: 0;
   padding: 1em 1em 1em 4.8em;
+  @include mobile {
+    padding: 0 0 0 50px;
+  }
 }
 
 .front-page-info-points ul li {
