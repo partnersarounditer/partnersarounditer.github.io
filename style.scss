@@ -327,7 +327,7 @@ section {
 
 .president-photo {
   text-align: center;
-  margin-bottom: 3em;
+  margin-bottom: 4.2em;
   margin-top: 1em;
   @include span-columns(4 of 12);
   @include media($mobile) {
@@ -343,6 +343,9 @@ section {
     @include span-columns(12 of 12);
     margin-bottom: 2.4em;
     text-align: justify;
+  }
+  @include media($tablet) {
+    margin-bottom: 2.8em;
   }
 }
 
@@ -393,10 +396,18 @@ section {
 .front-page-div {
   @include span-columns(4 of 12);
   background: $lightGray;
-  @include mobile {
-  @include span-columns(12 of 12);
-  margin-bottom: 1em;
-  }
+    @include mobile {
+    @include span-columns(12 of 12);
+    margin-bottom: 1em;
+    }
+    @include tablet {
+    @include span-columns(12 of 12);
+    margin-bottom: 1em;
+    }
+}
+
+#nuclear {
+  line-height: 1.7em;
 }
 
 .front-page-div-3 li {
@@ -435,8 +446,8 @@ section {
 .opaque-background-green-home {
   margin-bottom: 0;
   background: rgba($pai-green, 0.7);
-  @include media(1020px) {
-  height: 72px;
+  @include media($tablet) {
+  height: 1.7em;
   }
 }
 
@@ -444,10 +455,13 @@ section {
   font-size: 20px;
   padding: 2px 4px 2px 30px;
   color: $white;
-  
+  line-height: 72px;
   font-weight: 300;
   margin-bottom: 0;
   margin: 0;
+  @include media($tablet) {
+    line-height: 1.7em;
+  }
 }
 
 .opaque-background-green-home-1 h2, .opaque-background-green-home-3 h2 {
