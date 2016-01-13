@@ -12,10 +12,9 @@ layout: front-page
 <section class="intro">
   <h2 class="slogan">Welcome to Partners Around Iter</h2>
   <br>
-  <div class="president-photo"><img src="http://placehold.it/300x300?text=Photo of President"/></div>
+  <div class="president-photo"><img src="/assets/images/president.jpg" alt="Photo of PAI President"/></div>
 
-  <div class="intro-text"><p>&quot;From support services to operational partnership, effective collaboration on the ITER Project is our focus.
-As locally based B2B companies we can offer you our French nuclear environment know-how and our multi-skilled capabilities.
+  <div class="intro-text"><p>&quot;From support services to operational partnership, effective collaboration on the ITER Project is our focus.<br>As locally based B2B companies we can offer you our French nuclear environment know-how and our multi-skilled capabilities.<br>
 PAI members working daily with ITER are fully committed to the success of your project.&quot;</p>
   <cite><strong>Pascal Weil - PAI President</strong></cite></div>
 </section>
@@ -39,7 +38,7 @@ PAI members working daily with ITER are fully committed to the success of your p
     <ul>
       <li>Safety and security regulations</li>
       <li>Significant nuclear references over 50 years</li>
-      <li>Daily implementation of regulations and codes (RCCE, RCCM, ESPN… )</li>
+      <li>Daily implementation of regulations and codes (RCCE, RCCM, <emp>RCCM-RX</emp>, ESPN, <emp>ASME, PED and H&S regulation</emp>...)</li>
     </ul>
   </div>
   <div class="front-page-div front-page-div-3">

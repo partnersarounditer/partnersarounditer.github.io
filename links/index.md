@@ -8,7 +8,7 @@ title: Links
 </div>
 <div class="front-page-info-points">
 	<ul>
-	<li><a href="http://iter.org">Iter</a></li>
+	<li><a href="http://iter.org">Iter Organization</a></li>
 	<li><a href="http://fusionforenergy.europa.eu/">Fusion For Energy</a></li>
 	<li><a href="http://www.itercad.org/">Iter Agence France</a></li>
 	<li><a href="http://www.iterchina.cn/">Iter China</a></li>
