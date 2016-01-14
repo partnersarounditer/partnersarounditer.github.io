@@ -337,6 +337,9 @@ section {
   background: rgba($pai-green, 0.7);
   margin-left: 0;
   height: 63px;
+  @include media($mobile) {
+    height: inherit;
+  }
 }
 
 .slogan {
@@ -430,7 +433,7 @@ section {
     }
 }
 
-#nuclear {
+#nuclear, #local, #multiskilled {
   line-height: 1.7em;
 }
 
@@ -581,6 +584,9 @@ footer {
 .news-item {
   padding: 2.8em 6em 4em 6em;
   background: $white;
+  @include media($mobile) {
+    padding: 1em 0 4em 0;
+  }
 }
 
 /// POST ///

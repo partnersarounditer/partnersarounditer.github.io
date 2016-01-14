@@ -57,7 +57,7 @@ PAI members working daily with ITER are fully committed to the success of your p
 
     <div class="front-page-div">
     <div class="opaque-background-green-home opaque-background-green-home-1">
-    <h2>Strong Local Presence</h2>
+    <h2 id="local">Strong Local Presence</h2>
   </div>
     <ul>
       <li>18 companies representing over 25 000 employees in the region</li>
@@ -77,7 +77,7 @@ PAI members working daily with ITER are fully committed to the success of your p
   </div>
   <div class="front-page-div front-page-div-3">
     <div class="opaque-background-green-home opaque-background-green-home-3">
-      <h2>Multi Skilled Capabilities</h2>
+      <h2 id="multiskilled">Multi Skilled Capabilities</h2>
     </div>
     <ul>
       <li>Assembly and installation</li>
