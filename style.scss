@@ -747,6 +747,8 @@ footer {
   }
 }
 
+/// SERVICES: CONTACT BY ITER SYSTEMS ///
+
 .flex-item-7 {
   flex-grow: 1;
   background: url("/assets/images/industeel_1a.jpg") no-repeat;
@@ -852,8 +854,6 @@ footer {
   }
 }
 
-////////// SERVICES //////////
-
 .services-button {
   background: $blue;
   cursor: pointer;
@@ -941,6 +941,12 @@ footer {
 
 .partner-info {
    @include span-columns(7 of 12);
+   @include media($mobile) {
+    @include span-columns(12 of 12);
+   }
+    @include media($tablet) {
+    @include span-columns(12 of 12);
+   }
 }
 
 .partner-logo {
@@ -960,15 +966,29 @@ footer {
   background: $lightGray;
   @include shift(1);
    @include span-columns(4 of 12);
+   @include media($mobile) {
+    @include shift(0);
+    @include span-columns(12 of 12);
+    margin-top: 2em;
+   }
+   @include media($tablet) {
+    @include shift(0);
+    @include span-columns(12 of 12);
+    margin-top: 2em;
+   }
  }
 
  .contact-card-info {
    padding: 0.4em 1.6em 1.8em 1.6em;
  }
 
-
-
-
+ .contact-card, .partner-info {
+  @media screen and (max-width: 900px) {
+    @include outer-container;
+    @include span-columns(12 of 12);
+    margin-top: 2em;
+  }
+ }
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
