@@ -7,7 +7,7 @@ tel: +33 6 48 16 86 45
 email: lbonnet@onet.fr
 website: fr.groupeonet.com/Onet-Technologies
 link: http://fr.groupeonet.com/Onet-Technologies
-logo: onet_small.png
+logo: onet.jpg
 ---
 
 Major actor on the French nuclear market, Onet Technologies has provided continuous engineering support to the ITER project since 2007, with its fully-owned subsidiary Comex Nucléaire.

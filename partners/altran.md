@@ -7,7 +7,7 @@ tel: +33 6 73 00 92 65
 email: pierre-jean.gonnet@altran.com
 website: www.altran.com
 link: http://www.altran.com
-logo: altran.png
+logo: altran_left.png
 ---
 
 Already at project start in 2010 during platform construction as support to the owner Altran has been deeply involved in the Iter project. For 5 years One Altran team is delivering the majority of scheduling support resources to the IO Project control Organization and another one is as part of the Energhia consortium (with the Spanish company Idom and the British company Halcrow (CH2M subsidiary) support to the owner to the BIPS (IO-F4E Building integrated project team).
