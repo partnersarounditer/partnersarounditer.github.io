@@ -203,6 +203,9 @@ table, th, td {
   float: right;
   //margin-top: 23px; // @TODO: Vertically middle align
   font-size: 18px;
+  a {
+    color: $black;
+  }
   a:hover {
       color: $pai-green;
     }  
