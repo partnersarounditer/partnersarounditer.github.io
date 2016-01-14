@@ -313,6 +313,9 @@ section {
   color: $white;
   //text-shadow: 1px 1px 1px $black;
   letter-spacing: 2.6px;
+   @include media($tablet) {
+    padding: 0.2em 1em;
+   }
    @include media($mobile) {
     font-size: 24px;
     padding: 0.1em 0.5em;
