@@ -2,13 +2,10 @@
 layout: front-page
 ---
 
-<div class="front-page-hero">
-    <div class="front-page-welcome">
-      <h1>For Your Iter Success</h1>
-    </div>
-</div>
+ {% assign currentTime = 'now' | date: '%s' %}
+  {% assign currentTimeInteger = currentTime | plus:0 %}
 
-<div class="container">
+  {% assign minusSevenDays = currentTimeInteger | minus: 604800 %}
 
 <!--<p id="jstime"></p>
   <script type="text/javascript">
@@ -17,14 +14,9 @@ layout: front-page
   var p = "<p>" + e + "</p>"</script>
   <script type="text/javascript">
   document.getElementById("jstime").innerHTML = p;
-  </script>-->
-
-  {% assign currentTime = 'now' | date: '%s' %}
-  {% assign currentTimeInteger = currentTime | plus:0 %}
-
-  {% assign minusSevenDays = currentTimeInteger | minus: 604800 %}
+  </script>
  
-  <!--<p>Current Time in seconds = {{ currentTime }}</p>
+  <p>Current Time in seconds = {{ currentTime }}</p>
 
   <p>Current seconds - 7 days: {{'now' | date: "%s" | minus : 604800 | date: "%s" }}</p>
  
@@ -32,18 +24,26 @@ layout: front-page
 
   <p>New variable = {{ minusSevenDays }}</p>-->
 
-
-  {% for post in site.posts %}
-    {% assign postDateInSeconds = post.date | date: '%s' %}
-    {% assign postDateInSecondsInteger = postDateInSeconds | plus:0 %}
+<div class="front-page-hero">
+    <div class="front-page-welcome">
+      <h1>For Your Iter Success</h1>
+      {% for post in site.posts %}
+      {% assign postDateInSeconds = post.date | date: '%s' %}
+      {% assign postDateInSecondsInteger = postDateInSeconds | plus:0 %}
 
       {% if postDateInSecondsInteger > minusSevenDays and forloop.index == 1 %}
 
-  <span class="date">New article posted {{ post.date | date: "%B %e, %Y" }} : <a href="{{ post.url }}">{{ post.title }}</a></span>
-    {% endif %}
-  {% endfor %}
+      <span class="announce">
+        <a href="{{ post.url }}"><p>New article posted {{ post.date | date: "%B %e, %Y" }}</a>
+      </p></span>
+      {% endif %}
+      {% endfor %}
 
- <section class="intro">
+    </div>
+</div>
+
+<div class="container">
+<section class="intro">
   <h2 class="slogan">Welcome to Partners Around Iter</h2>
   <br>
   <div class="president-photo"><img src="/assets/images/president.jpg" alt="Photo of PAI President"/></div>
