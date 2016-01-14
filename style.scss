@@ -31,7 +31,13 @@ body {
   @include outer-container;
   padding: 20px;
   @include media($mobile) {
-    padding: 0;
+    padding: 0 16px;
+  }
+}
+
+.news-home .container {
+  @include media($mobile) {
+    padding: 0 10px;
   }
 }
 
@@ -579,7 +585,7 @@ footer {
 .news-home {
   background: #F2F2F2;
   @include media($mobile) {
-    background: white;
+    background: $lightGray;
   }
 }
 
