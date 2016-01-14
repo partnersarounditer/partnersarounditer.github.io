@@ -311,7 +311,7 @@ section {
     font-size: 24px;
     padding: 0.1em 0.5em;
    }
-}
+ }
 
 .announce {
   color: white;
@@ -433,8 +433,17 @@ section {
     }
 }
 
-#nuclear, #local, #multiskilled {
+#nuclear {
   line-height: 1.7em;
+}
+
+#local, #nuclear, #multiskilled {
+  @media(max-width: 1020px) and (min-width: 510px) {
+    line-height: 1.7em;
+  }
+  @include media($mobile) {
+    line-height: inherit;
+  }
 }
 
 .front-page-div-3 li {
@@ -476,6 +485,9 @@ section {
   @include media($tablet) {
   height: 1.7em;
   }
+  @include media($mobile) {
+  height: inherit;
+  }
 }
 
 .opaque-background-green-home h2 {
@@ -488,6 +500,9 @@ section {
   margin: 0;
   @include media($tablet) {
     line-height: 1.7em;
+  }
+  @include media($mobile) {
+  height: inherit;
   }
 }
 
@@ -584,9 +599,6 @@ footer {
 .news-item {
   padding: 2.8em 6em 4em 6em;
   background: $white;
-  @include media($mobile) {
-    padding: 1em 0 4em 0;
-  }
 }
 
 /// POST ///
