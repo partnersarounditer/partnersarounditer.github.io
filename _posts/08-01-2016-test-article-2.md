@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Daher élu CODIR de l'année 2015
+title: Test Article 2
 author: Daher
 weblink: http://www.daher.com
 website: www.daher.com
@@ -13,5 +13,3 @@ Cette 4ème édition fût présidée par Jean-Dominique Sénard, président du G
 À cette occasion, Daher a été élu parmi les trois Lauréats et a remporté le Trophée du CODIR de la 3ème révolution industrielle. Récompensé pour sa capacité à préparer l'avenir, le Groupe prouve encore une fois son excellence.
 
 {{ page.date }}
-
-<img src="/assets/images/1-dec-2015.jpg">

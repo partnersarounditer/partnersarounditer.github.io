@@ -429,7 +429,7 @@ section {
 
 .opaque-background-green-2 {
   margin-bottom: 0;
-  background: rgba($pai-green, 0.8);
+  background: rgba($pai-green, 0.9);
 }
 
 .opaque-background-green-2 h2 {
@@ -445,7 +445,7 @@ section {
 
 .opaque-background-green-home {
   margin-bottom: 0;
-  background: rgba($pai-green, 0.7);
+  background: rgba($pai-green, 0.9);
   @include media($tablet) {
   height: 1.7em;
   }
