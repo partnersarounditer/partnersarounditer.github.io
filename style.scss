@@ -31,7 +31,7 @@ body {
   @include outer-container;
   padding: 20px;
   @include media($mobile) {
-    padding: 0 16px;
+    padding: 0;
   }
 }
 
@@ -474,9 +474,9 @@ section {
  
   font-weight: 400;
   margin-bottom: 0;
-  @include mobile {
+  /*@include mobile {
     font-size: 20px;
-  }
+  }*/
 }
 
 .opaque-background-green-home {
@@ -578,6 +578,9 @@ footer {
 
 .news-home {
   background: #F2F2F2;
+  @include media($mobile) {
+    background: white;
+  }
 }
 
 .news-logo {
@@ -599,6 +602,9 @@ footer {
 .news-item {
   padding: 2.8em 6em 4em 6em;
   background: $white;
+  @include mobile {
+    padding: 1.2em 0.6em 3em 1em;
+  }
 }
 
 /// POST ///
@@ -607,6 +613,9 @@ footer {
   max-width: 764px;
   margin-right: auto;
   margin-left: auto;
+  @include mobile {
+    padding: 1em 1em 2em 1em;
+  }
 }
 
 .post h1 {
