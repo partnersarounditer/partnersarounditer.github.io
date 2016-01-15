@@ -218,8 +218,7 @@ table, th, td {
   float: right;
   //margin-top: 23px; // @TODO: Vertically middle align
   font-size: 18px;
-  font-weight: 400;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   a {
     color: $black;
   }
@@ -235,8 +234,9 @@ table, th, td {
 #nav-ul li{
 display:inline-block;
 position:relative;
+text-align: left;
 @include mobile {
-  padding: 0 0.6em;
+  padding: 0 1em;
   }
 }
 
