@@ -176,7 +176,7 @@ table, th, td {
 
 .wrapper-masthead {
   background: $lightGray;
-  border-top: 6px solid $pai-gray;
+  //border-top: 6px solid $pai-gray;
 }
 
 .masthead {
@@ -309,6 +309,10 @@ section {
     background: rgba($pai-green, 0.9);
     padding: 0;
   }
+  @include media($tablet) {
+    background: rgba($pai-green, 0.9);
+    padding: 0;
+  }
 }
 
 .front-page-hero h1 {
@@ -322,6 +326,11 @@ section {
    }
    @include media($mobile) {
     font-size: 24px;
+    padding: 0.1em 0.5em;
+    margin-top: 0;
+   }
+   @include media($tablet) {
+    
     padding: 0.1em 0.5em;
     margin-top: 0;
    }
