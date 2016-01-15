@@ -711,6 +711,7 @@ footer {
 .mobile-menu {
   @media screen and (min-width: 594px) {
     display: none;
+    max-width: 200x;
   }
 }
 
