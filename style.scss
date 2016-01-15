@@ -729,16 +729,15 @@ footer {
   
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
-  @include mobile {
+  @media screen and (max-width: 669px) {
     flex-direction: column;
     display: none;
   }
 }
 
 .mobile-menu {
-  @media screen and (min-width: 595px) {
+  @media screen and (min-width: 670px) {
     display: none;
-    max-width: 200x;
   }
 }
 
