@@ -321,6 +321,9 @@ section {
    @include media($tablet) {
     padding: 0.2em 1em;
    }
+   @include media($mobile) {
+    font-size: 24px;
+   }
  }
 
  .front-page-hero-contact-list {
@@ -381,7 +384,7 @@ section {
   color: $pai-green;
   //text-shadow: 1px 1px 1px $black;
   @include mobile {
-    font-size: 34px;
+    font-size: 24px;
     margin-top: 1.6em;
   }
 }
