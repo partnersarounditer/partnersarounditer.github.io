@@ -501,13 +501,16 @@ section {
 .opaque-background-green {
   margin-top: -200px;
   margin-bottom: 0;
-  background: rgba($pai-green, 0.7);
+  background: rgba($pai-green, 0.8);
+  @include media($mobile) {
+    margin-top: -230px;
+  }
 }
 
 .opaque-background-green h2 {
   padding: 2px 4px 2px 30px;
   color: $white;
-  
+
   font-weight: 300;
   margin-bottom: 0;
 }
