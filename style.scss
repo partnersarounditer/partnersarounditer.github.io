@@ -986,6 +986,9 @@ footer {
   @include media($tablet) {
     height: 100px;
   }
+   @media screen and (max-width: 1152px) {
+    height: 100px;
+  }
 }
 
 .services-button span {
