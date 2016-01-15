@@ -619,6 +619,9 @@ footer {
   padding: 0;
   text-align: center;
   font-size: 16px;
+  @include media($mobile) {
+    font-size: 14px;
+  }
 }
 
 .footer-container {
@@ -655,6 +658,7 @@ footer {
   background: $white;
   @include mobile {
     padding: 1.2em 0.6em 2.2em 1em;
+    font-size: 16px;
   }
 }
 
