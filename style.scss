@@ -925,9 +925,10 @@ footer {
         padding: 0;
 
 @include media($tablet) {
-  width: 100%;
-  max-width: parent;
-}
+  max-width: 96%;
+  left: 2%;
+  top: 2%;
+  }
 }
 
 .modal-title {
