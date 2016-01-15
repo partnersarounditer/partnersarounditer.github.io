@@ -189,9 +189,15 @@ table, th, td {
 
 .masthead {
   padding: 10px 0 0 0;
-
-  @include mobile {
+  @include media($mobile) {
     text-align: center;
+    padding: 0;
+  }
+}
+
+.wrapper-masthead .container {
+  @media screen and (max-width: 700px) {
+  padding: 14px;
   }
 }
 
@@ -203,7 +209,8 @@ table, th, td {
     float: left;
     display: block;
     margin: 0 auto;
-    width: 120px;
+
+    width: 140px;
   }
 
   @media screen and (max-width: 500px) {
@@ -215,10 +222,14 @@ table, th, td {
 }
 
 #nav-ul {
-  margin-top: 23px; // @TODO: Vertically middle align
-  @include media($mobile) {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 23px; 
+  @media screen and (max-width: 700px){
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  @media screen and (max-width: 500px) {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
 
@@ -236,6 +247,11 @@ table, th, td {
   a:hover {
       color: $pai-green;
     }  
+  @media screen and (max-width: 700px) {
+    float: none;
+    text-align: right;
+    margin-right: 10px;
+  }
   @media screen and (max-width: 500px) {
     float: none;
     text-align: center;
@@ -244,13 +260,16 @@ table, th, td {
 }
 
 #nav-ul li{
-display:inline-block;
-position:relative;
-text-align: left;
-@include mobile {
-  padding: 0 0.4em;
+  display:inline-block;
+  position:relative;
+  text-align: left;
+  @media screen and (max-width: 700px) {
+    padding: 0 0.2em;
+    }
+  @media screen and (max-width: 500px)  {
+    padding: 0 0.4em;
+    }
   }
-}
 
 #nav-ul ul li{
 display:inherit;
@@ -287,9 +306,12 @@ padding-left: 20px;
 #nav-ul a{
 display:block;
 padding:8px 24px;
-@include mobile {
-  padding: 0;
-  }
+@media screen and (max-width: 700px) {
+    padding: 0;
+    }
+  @media screen and (max-width: 500px)  {
+    padding: 0;
+    }
 }
 
 #nav-ul ul a {
@@ -303,14 +325,21 @@ text-transform:inherit;
 .search-form {
   text-align: right;
   margin-top: 4.4em;
-  margin-right: 4.5em;
-  @include mobile {
-    text-align: center;
+  padding-bottom: 0;
+  @media screen and (max-width: 700px) {
+    text-align: right;
     margin-top: 0;
+    padding-top: 1.4em;
     margin-right: auto;
     margin-left: auto;
-    padding-bottom: 0.4em;
-  }
+    padding-bottom: 0;
+    }
+  @media screen and (max-width: 500px)  {
+    text-align: center;
+    margin-top: 0;
+    margin-right: 0;
+    padding-bottom: 0.2em;
+    }
 }
 
 //////////// .main /////////////
