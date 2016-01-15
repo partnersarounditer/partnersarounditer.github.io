@@ -704,6 +704,13 @@ footer {
   justify-content: space-around;
   @include mobile {
     flex-direction: column;
+    display: none;
+  }
+}
+
+.mobile-menu {
+  @media screen and (min-width: 594px) {
+    display: none;
   }
 }
 
