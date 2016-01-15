@@ -309,14 +309,6 @@ section {
   background-position: 40% 62%;
   padding: 7em 0;
   padding-bottom: 0;
-  @include media($mobile) {
-    background: rgba($pai-green, 0.9);
-    padding: 0;
-  }
-  @include media($tablet) {
-    background: rgba($pai-green, 0.9);
-    padding: 0;
-  }
 }
 
 .front-page-hero h1 {
@@ -328,7 +320,21 @@ section {
    @include media($tablet) {
     padding: 0.2em 1em;
    }
-   @include media($mobile) {
+ }
+
+ .front-page-hero-contact-list {
+ @include media($mobile) {
+    background: rgba($pai-green, 0.9);
+    padding: 0;
+  }
+  @include media($tablet) {
+    background: rgba($pai-green, 0.9);
+    padding: 0;
+  }
+ }
+
+ .front-page-hero-contact-list h1 {
+  @include media($mobile) {
     font-size: 24px;
     padding: 0.1em 0.5em;
     margin-top: 0;
