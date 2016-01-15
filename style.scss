@@ -236,7 +236,7 @@ display:inline-block;
 position:relative;
 text-align: left;
 @include mobile {
-  padding: 0 0.6em;
+  padding: 0 0.5em;
   }
 }
 
@@ -246,7 +246,7 @@ display:inherit;
 
 #nav-ul ul{
 margin-top: 10px;
-width: 220px;
+width: 260px;
 position:absolute;
 z-index: 1000;
 max-height:0;
@@ -261,7 +261,7 @@ transition: .8s all .3s;
 #nav-ul li:hover ul {
 border-radius: 2px;
 max-height:15em;
-width: 220px;
+width: 260px;
 }
 
 /* background des liens sous menus */
