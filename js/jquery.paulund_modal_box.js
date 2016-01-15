@@ -6,25 +6,21 @@
 
 		// Default parameters
 
-		var tokamak = "<div class='first-row'><a href='/services/magnets.html'><button id='magnets' class='services-button'><span>Magnets</span><img class='iter-icon' src='/assets/images/icons/MAG.jpg'></button></a>" + "<a href='/services/vacuum-vessel.html'><button id='vv' class='services-button'><span>Vacuum Vessel</span><img class='iter-icon' src='/assets/images/icons/VV.jpg'></button></a></div>" + "<a href='/services/cryostat.html'><button class='services-button'><span>Cryostat, Thermal Shield, Vacuum Pumping and Fueling, Cooling Water System</span><img class='iter-icon' src='/assets/images/icons/AUXI.jpg'></button></a>";
+		var tokamak = "<ul><li><img class='iter-icon' src='/assets/images/icons/MAG.jpg'><a href='/services/magnets.html'>Magnets</a></li><li><img class='iter-icon' src='/assets/images/icons/IVC.jpg'><a href='/services/vacuum-vessel.html'>Vacuum Vessel</li><li><img class='iter-icon' src='/assets/images/icons/AUXI.jpg'><a href='/services/cryostat.html'>Cryostat, Thermal Shield, Vacuum Pumping and Fueling, Cooling Water System</a></li></ul>";
 
-		var supportingSystems = "<a href='/services/in-vessel-components.html'><button id='ivc' class='services-button'><span>In Vessel Components</span><img class='iter-icon' src='/assets/images/icons/IVC.jpg'></button></a>" +
-		 						"<a href='/services/remote-handling.html'><button id='rh' class='services-button'><span>Remote handling</span><img class='iter-icon' src='/assets/images/icons/RH.jpg'></button></a>" + "<br>" +
-		 						"<a href='/services/cryogenics.html'><button id='cryo' class='services-button'><span>Cryogenics</span><img class='iter-icon' src='/assets/images/icons/CRYO.jpg'></button></a>" + 
-		 						"<a href='/services/codac.html'><button id='codac'class='services-button'><span>CODAC</span><img class='iter-icon' src='/assets/images/icons/CODAC.jpg'></button></a>" +
-		 						"<a href='/services/diagnostics.html'><button id='diag' class='services-button'><span>Diagnostics</span><img class='iter-icon' src='/assets/images/icons/DIAG.jpg'></button></a>" + "<br>" + 
-		 						"<a href='/services/heating-systems-current-drive.html'><button id='hscd' class='services-button'><span>Heating Systems and Current Drive</span><img class='iter-icon' src='/assets/images/icons/HS.jpg'></button></a>" +
-		 						"<a href='/services/power-supply.html'><button id='psupply' class='services-button'><span>Power Supply</span><img class='iter-icon' src='/assets/images/icons/PS.jpg'></button></a>" + "<br>" +
-		 						"<a href='/services/tritium-plant.html'><button id='tplant' class='services-button'><span>Tritium Plant, Hot Cell, Waste Storage and Treatment, Radiological Protection</span><img class='iter-icon' src='/assets/images/icons/IS.jpg'></button></a>";
+		var supportingSystems = "<ul><li><img class='iter-icon' src='/assets/images/icons/IVC.jpg'><a href='/services/in-vessel-components.html'>In Vessel Components</a></li>" +
+		 						"<li><img class='iter-icon' src='/assets/images/icons/RH.jpg'><a href='/services/remote-handling.html'>Remote handling</a></li>" +
+		 						"<li><img class='iter-icon' src='/assets/images/icons/CRYO.jpg'><a href='/services/cryogenics.html'>Cryogenics</a></li>" + 
+		 						"<li><img class='iter-icon' src='/assets/images/icons/CODAC.jpg'><a href='/services/codac.html'>CODAC</a></li>" +
+		 						"<li><img class='iter-icon' src='/assets/images/icons/DIAG.jpg'><a href='/services/diagnostics.html'>Diagnostics</a></li>" + 
+		 						"<li><img class='iter-icon' src='/assets/images/icons/HS.jpg'><a href='/services/heating-systems-current-drive.html'>Heating Systems and Current Drive</a></li>" +
+		 						"<li><img class='iter-icon' src='/assets/images/icons/PS.jpg'><a href='/services/power-supply.html'>Power Supply</a></li>" +
+		 						"<li><img class='iter-icon' src='/assets/images/icons/IS.jpg'><a href='/services/tritium-plant.html'>Tritium Plant, Hot Cell, Waste Storage and Treatment, Radiological Protection</a></li></ul>";
 
 
-		var tokamakBtn = document.getElementById("tokamakButton");
-
-		var supportingSystemsBtn = document.getElementById("SupportingSystemsButton");
-
-		var options = $.extend({
+			var options = $.extend({
 			title: "",
-			description: supportingSystems,
+			description: tokamak, supportingSystems,
 		},prop);
 				
 		return this.click(function(e){

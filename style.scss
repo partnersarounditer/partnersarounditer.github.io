@@ -966,45 +966,6 @@ footer {
   }
 }
 
-.services-button {
-  background: $blue;
-  cursor: pointer;
-  height: 60px;
-  color: $white;
-  //text-shadow: #666666;
-  font-family: $nunito;
-  font-weight: 300;
-  font-size: 1.1em;
-  //padding-left: 20px;
-  margin: 0.5em 0.2em;
-  border: none;
-  border-radius: 4px;
-  box-shadow: 1px 1px 1px $darkerGray;
-  &:hover {
-    background: darken($blue, 20%);
-  }
-  @include media($tablet) {
-    height: 100px;
-  }
-   @media screen and (max-width: 1152px) {
-    height: 100px;
-  }
-}
-
-.services-button span {
-  position: relative;
-  bottom: 12px;
-}
-
-.iter-icon {
-  height: 50px;
-  width: auto;
-  padding-left: 14px;
-  z-index: 1;
-  position: relative;
-  top: 3px;
-}
-
 .paulund_modal_box { 
         position:absolute; 
         left: 10%;
@@ -1020,16 +981,7 @@ footer {
         background: $white;
         padding-top: 0;
         padding: 0;
-        @include media($tablet) {
-          max-width: 96%;
-          left: 2%;
-          top: 2%;
-          }
-        @include media($mobile) {
-          max-width: 96%;
-          left: 2%;
-          top: 2%;
-          }
+        text-align: left;
 }
 
 .modal-title {
@@ -1049,36 +1001,11 @@ footer {
   padding: 2em;
 }
 
-#magnets, #vv, #ivc, #rh {
-  @include span-columns(6 of 12);
-  @include media($mobile) {
-    @include span-columns(12 of 12);
-  }
-}
-
-#cryo, #codac, #diag {
-  @include span-columns(4 of 12);
-  @include media($mobile) {
-    @include span-columns(12 of 12);
-  }
-}
-
-#hscd {
-  @include span-columns(7 of 12);
-  @include media($mobile) {
-    @include span-columns(12 of 12);
-  }
-}
-
-#psupply {
-  @include span-columns(5 of 12);
-  @include media($mobile) {
-    @include span-columns(12 of 12);
-  }
-}
-
-#tplant {
-  @include span-columns(12 of 12);
+.iter-icon {
+  width: 60px;
+  padding-right: 1em;
+  position: relative;
+  top: 10px;
 }
 
 //// PARTNER INFO /////
