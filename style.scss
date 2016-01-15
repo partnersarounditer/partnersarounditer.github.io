@@ -31,6 +31,10 @@ p a {
   word-break: break-all;
 }
 
+.read-more {
+  word-break: keep-all;
+}
+
 .container {
   @include outer-container;
   padding: 20px;
@@ -374,6 +378,11 @@ section {
   background: rgba($pai-green, 0.7);
   margin-left: 0;
   height: 63px;
+  h1 {
+    @include media($mobile) {
+      font-size: 26px;
+    }
+  }
   @include media($mobile) {
     height: inherit;
   }
@@ -384,7 +393,7 @@ section {
   color: $pai-green;
   //text-shadow: 1px 1px 1px $black;
   @include mobile {
-    font-size: 24px;
+    font-size: 26px;
     margin-top: 1.6em;
   }
 }
@@ -607,8 +616,13 @@ section {
 }
 
 footer {
-  padding: 20px 0;
+  padding: 0;
   text-align: center;
+  font-size: 16px;
+}
+
+.footer-container {
+  padding: 0;
 }
 
 /////////// NEWS /////////////
@@ -641,6 +655,12 @@ footer {
   background: $white;
   @include mobile {
     padding: 1.2em 0.6em 2.2em 1em;
+  }
+}
+
+.news-item h1 {
+  @include media($mobile) {
+    font-size: 26px;
   }
 }
 

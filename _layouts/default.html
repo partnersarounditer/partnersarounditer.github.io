@@ -4,13 +4,7 @@
       {{ content }}
     </div>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-            <p>Copyright Partners Around Iter {{ 'now' | date: "%Y" }}</p>
-        </footer>
-      </div>
-    </div>
+      {% include footer.html %}
     <script>
     $(document).ready(function(){
       $('.paulund_modal').paulund_modal_box();

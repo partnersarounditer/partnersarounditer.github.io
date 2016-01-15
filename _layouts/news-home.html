@@ -44,21 +44,14 @@
         </header>
       </div>
     </div>
-
           
     <div class="news-hero"></div>
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-            <p>Copyright Partners Around Iter {{ 'now' | date: "%Y" }}</p>
-        </footer>
-      </div>
-    </div>
-
+    {% include footer.html %}
+   
     {% include analytics.html %}
   </body>
 </html>
