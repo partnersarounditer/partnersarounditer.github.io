@@ -38,19 +38,19 @@ title: Contact by Iter System
 </ul>
 
 <div class="ui-field-contain mobile-menu">
-    <label for="select-custom-4">Optgroup:</label>
-    <select name="select-custom-4" id="select-custom-4" data-native-menu="false">
-        <option>Choose...</option>
-        <optgroup label="Group 1">
+    <label for="select-custom-4"></label>
+    <select name="select-custom-4" id="select-custom-4" data-native-menu="false"  onchange="location = this.options[this.selectedIndex].value;">
+        <option>Choose System...</option>
+        <optgroup label="Supporting Systems">
             <option value="1">The 1st Option</option>
             <option value="2">The 2nd Option</option>
             <option value="3">The 3rd Option</option>
             <option value="4">The 4th Option</option>
         </optgroup>
         <optgroup label="Tokamak">
-            <option value="5">Magnets</option>
-            <option value="6">The 6th Option</option>
-            <option value="7">The 7th Option</option>
+            <option value="/services/magnets.html">Magnets<a href="/services/magnets.html"></a></option>
+            <option value="6">Vacuum Vessel</option>
+            <option value="7">Cryostat, Thermal Shield, Vacuum Pumping and Fueling, Cooling Water System</option>
         </optgroup>
     </select>
 </div>
