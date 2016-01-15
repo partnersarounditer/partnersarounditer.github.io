@@ -27,6 +27,10 @@ body {
   color: $darkGray;
 }
 
+p a {
+  word-break: break-all;
+}
+
 .container {
   @include outer-container;
   padding: 20px;
@@ -919,6 +923,11 @@ footer {
         background: $white;
         padding-top: 0;
         padding: 0;
+
+@include media($tablet) {
+  width: 100%;
+  max-width: parent;
+}
 }
 
 .modal-title {
