@@ -29,7 +29,7 @@ $nunito: 'Nunito', sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {
-  @media screen and (max-width: 594px) {
+  @media screen and (max-width: 613px) {
     @content;
   }
 }
