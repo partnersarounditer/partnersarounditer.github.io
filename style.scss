@@ -222,7 +222,7 @@ table, th, td {
 }
 
 #nav-ul {
-  margin-top: 23px; 
+  margin-top: 10px; 
   @media screen and (max-width: 700px){
     margin-top: 0;
     margin-bottom: 0;
@@ -325,6 +325,7 @@ text-transform:inherit;
 .search-form {
   text-align: right;
   margin-top: 4.4em;
+  margin-right: 1.2em;
   padding-bottom: 0;
   @media screen and (max-width: 700px) {
     text-align: right;
