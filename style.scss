@@ -937,6 +937,11 @@ footer {
           left: 2%;
           top: 2%;
           }
+        @include media($mobile) {
+          max-width: 96%;
+          left: 2%;
+          top: 2%;
+          }
 }
 
 .modal-title {
@@ -958,18 +963,30 @@ footer {
 
 #magnets, #vv, #ivc, #rh {
   @include span-columns(6 of 12);
+  @include media($mobile) {
+    @include span-columns(12 of 12);
+  }
 }
 
 #cryo, #codac, #diag {
   @include span-columns(4 of 12);
+  @include media($mobile) {
+    @include span-columns(12 of 12);
+  }
 }
 
 #hscd {
   @include span-columns(7 of 12);
+  @include media($mobile) {
+    @include span-columns(12 of 12);
+  }
 }
 
 #psupply {
   @include span-columns(5 of 12);
+  @include media($mobile) {
+    @include span-columns(12 of 12);
+  }
 }
 
 //// PARTNER INFO /////
