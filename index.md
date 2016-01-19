@@ -112,7 +112,7 @@ PAI members working daily with ITER are fully committed to the success of your p
       <div class="table-inner">
     <table class="home-page-table">
       <tr>
-        <td><a href="/partners/actemium.html"><img src="assets/images/logos/actemium_small.png"></a><td>
+        <td><a href="/partners/airliquide.html"><img src="assets/images/logos/air_liquide_small.png"></a><td>
         <td><a href="/partners/altran.html"><img src="assets/images/logos/altran_small.png"></a></td>
         <td><a href="/partners/apave.html"><img src="assets/images/logos/apave_small.png"></a></td>
         <td><a href="/partners/areva.html"><img src="assets/images/logos/areva_small.png"></a><td>
