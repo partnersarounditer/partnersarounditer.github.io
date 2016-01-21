@@ -658,6 +658,16 @@ section {
   }
 }
 
+.c2i {
+  @include span-columns(12 of 12);
+  text-align: center;
+  span {
+    position: relative;
+    bottom: 33px;
+    padding-right: 1em;
+  }
+}
+
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;

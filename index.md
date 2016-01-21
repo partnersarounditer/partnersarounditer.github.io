@@ -144,4 +144,7 @@ PAI members working daily with ITER are fully committed to the success of your p
   </div>
   </div>
 </section>
+
+<div class="c2i"><span>With C2I support</span><img src="/assets/images/logos/c2i.png" height="80"></div>
+
 </div>
