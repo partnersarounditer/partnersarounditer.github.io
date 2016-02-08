@@ -64,4 +64,4 @@ prose:
   rooturl: '_posts'
   siteurl: 'http://partnersarounditer.com'
   relativeLinks: 'http://partnersarounditer.com/links.jsonp'
-  media: '/assets/images'
+  media: 'assets/images'
