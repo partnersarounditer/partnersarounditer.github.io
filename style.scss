@@ -606,7 +606,7 @@ section {
 }
 
 .front-page-logos {
-  @include span-columns(12);
+  @include span-columns(12 of 12);
 }
 
 .home-page-table {
@@ -624,8 +624,14 @@ section {
   max-height: 100px;
 }
 
-.latest-news-item {
-  @include span-columns(12 of 12);
+.c2i {
+  float: none;
+  text-align: center;
+  span {
+    position: relative;
+    bottom: 33px;
+    padding-right: 1em;
+  }
 }
 
 .posts > .post {
@@ -655,16 +661,6 @@ section {
   .read-more {
     text-transform: lowercase;
     font-size: 15px;
-  }
-}
-
-.c2i {
-  @include span-columns(12 of 12);
-  text-align: center;
-  span {
-    position: relative;
-    bottom: 33px;
-    padding-right: 1em;
   }
 }
 
