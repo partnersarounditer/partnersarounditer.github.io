@@ -3,7 +3,7 @@ layout: contact-list
 title: Industrial Maintenance
 ---
 
-* [CNIM](/partners/cnim.html)
-* [ECA ROBOTICS](/partners/eca-robotics.html)
-* [ENGIE](/partners/engie.html)
-* [SCHNEIDER ELECTRIC](/partners/schneider-electric.html)
+* [CNIM](/partners/cnim)
+* [ECA ROBOTICS](/partners/eca-robotics)
+* [ENGIE](/partners/engie)
+* [SCHNEIDER ELECTRIC](/partners/schneider-electric)

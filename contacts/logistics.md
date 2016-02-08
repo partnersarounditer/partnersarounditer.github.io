@@ -3,6 +3,6 @@ layout: contact-list
 title: Logistics
 ---
 
-* [ALTRAN](/partners/altran.html)
-* [DAHER](/partners/daher.html)
-* [ENGIE](/partners/engie.html)
+* [ALTRAN](/partners/altran)
+* [DAHER](/partners/daher)
+* [ENGIE](/partners/engie)

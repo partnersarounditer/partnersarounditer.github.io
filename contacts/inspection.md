@@ -3,7 +3,7 @@ layout: contact-list
 title: Inspection
 ---
 
-* [APAVE](/partners/apave.html)
-* [BERTIN TECHNOLOGIES](/partners/bertin-technologies.html)
-* [ENGIE](/partners/engie.html)
-* [VINCI ENERGIES](/partners/vinci-energies.html)
+* [APAVE](/partners/apave)
+* [BERTIN TECHNOLOGIES](/partners/bertin-technologies)
+* [ENGIE](/partners/engie)
+* [VINCI ENERGIES](/partners/vinci-energies)
