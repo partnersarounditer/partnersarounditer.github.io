@@ -5,7 +5,7 @@ title: Full List of Partners
 
 # Full List of Partners
 
-* [ACTEMIUM](/partners/actemium.html)
+* [ACTEMIUM](/partners/actemium)
 * [ALTRAN](/partners/altran.html)
 * [APAVE](/partners/apave.html)
 * [AREVA](/partners/areva.html)
