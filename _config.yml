@@ -63,4 +63,5 @@ paginate_path: "/news/page:num/"
 prose:
   rooturl: '_posts'
   siteurl: 'http://partnersarounditer.com'
+  relativeLinks: 'http://prose.github.io/partnersarounditer.github.io/links.jsonp'
   media: '/assets/images'
