@@ -63,3 +63,4 @@ paginate_path: "/news/page:num/"
 prose:
   rooturl: '_posts'
   siteurl: 'http://partnersarounditer.com'
+  media: '/assets/images'
