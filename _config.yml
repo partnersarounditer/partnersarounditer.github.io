@@ -65,3 +65,8 @@ prose:
   siteurl: 'http://partnersarounditer.com'
   relativeLinks: 'http://partnersarounditer.com/links.jsonp'
   media: 'assets/images'
+  _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
