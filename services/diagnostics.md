@@ -3,7 +3,7 @@ layout: contact-list
 title: Diagnostics
 ---
 
-* [CNIM](/partners/cnim.html)
-* [ENGIE](/partners/engie.html)
-* [INGÉNIERIE ET CONSEILS](/partners/ingenierie-et-conseils.html)
-* [SCHNEIDER ELECTRIC](/partners/schneider-electric.html)
+* [CNIM](/partners/cnim)
+* [ENGIE](/partners/engie)
+* [INGÉNIERIE ET CONSEILS](/partners/ingenierie-et-conseils)
+* [SCHNEIDER ELECTRIC](/partners/schneider-electric)

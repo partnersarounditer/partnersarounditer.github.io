@@ -3,10 +3,10 @@ layout: contact-list
 title: Buildings
 ---
 
-* [ALTRAN](/partners/altran.html)
-* [APAVE](/partners/apave.html)
-* [CNIM](/partners/cnim.html)
-* [DAHER](/partners/daher.html)
-* [ENGIE](/partners/engie.html)
-* [SCHNEIDER ELECTRIC](/partners/schneider-electric.html)
-* [VINCI ENERGIES](/partners/vinci-energies.html)
+* [ALTRAN](/partners/altran)
+* [APAVE](/partners/apave)
+* [CNIM](/partners/cnim)
+* [DAHER](/partners/daher)
+* [ENGIE](/partners/engie)
+* [SCHNEIDER ELECTRIC](/partners/schneider-electric)
+* [VINCI ENERGIES](/partners/vinci-energies)

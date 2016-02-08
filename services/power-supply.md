@@ -3,5 +3,5 @@ layout: contact-list
 title: Power Supply
 ---
 
-* [ENGIE](/partners/engie.html)
-* [VINCI ENERGIES](/partners/vinci-energies.html)
+* [ENGIE](/partners/engie)
+* [VINCI ENERGIES](/partners/vinci-energies)

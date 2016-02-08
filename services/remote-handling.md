@@ -3,10 +3,10 @@ layout: contact-list
 title: Remote Handling
 ---
 
-* [CNIM](/partners/cnim.html)
-* [DASSAULT SYSTEMES](/partners/dassault-systemes.html)
-* [ECA ROBOTICS](/partners/eca-robotics.html)
-* [ENGIE](/partners/engie.html)
-* [INGÉNIERIE ET CONSEILS](/partners/ingenierie-et-conseils.html)
-* [SCHNEIDER ELECTRIC](/partners/schneider-electric.html)
-* [VINCI ENERGIES](/partners/vinci-energies.html)
+* [CNIM](/partners/cnim)
+* [DASSAULT SYSTEMES](/partners/dassault-systemes)
+* [ECA ROBOTICS](/partners/eca-robotics)
+* [ENGIE](/partners/engie)
+* [INGÉNIERIE ET CONSEILS](/partners/ingenierie-et-conseils)
+* [SCHNEIDER ELECTRIC](/partners/schneider-electric)
+* [VINCI ENERGIES](/partners/vinci-energies)
