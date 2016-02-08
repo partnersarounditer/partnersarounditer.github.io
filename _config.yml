@@ -74,8 +74,8 @@ prose:
     - name: "title"
       field:
       element: "text"
-      label: "title"
-      value: ""
+      label: "Enter title of the Article"
+      placeholder: "Enter Title"
     - name: "author"
       field:
       element: "multiselect"
