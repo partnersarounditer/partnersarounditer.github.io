@@ -14,4 +14,5 @@ By signing a contract with the ITER Organization in December 2015, CNIM Industri
 
 ![pai_logo_2016.png]({{site.baseurl}}/assets/images/pai_logo_2016.png)
 
-![guitar]({{site.baseurl}}/assets/images/IMG_0115.JPG)
+![vbafff]({{site.baseurl}}/assets/images/BAF_logo.png)
+
