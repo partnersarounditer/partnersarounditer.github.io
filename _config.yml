@@ -72,7 +72,7 @@ prose:
           element: "hidden"
           value: "post"
     - name: "title"
-    	field:
-    	  element: "text"
-    	  label: "Add title"
-    	  value: ""
+        field:
+        element: "text"
+        label: "Add title"
+        value: ""
