@@ -65,30 +65,3 @@ prose:
   siteurl: 'http://partnersarounditer.com'
   relativeLinks: 'http://partnersarounditer.com/links.jsonp'
   media: 'assets/images'
-  metadata:
-  _posts:
-      - name: "layout"
-        field:
-          label: "layout"
-          element: "text"
-          value: "post"
-      - name: "title"
-        field:
-          label: "title"
-          element: "text"
-          value: "enter a title"
-      - name: "author"
-        field:
-          label: "author"
-          element: "text"
-          value: "Shamime"
-      - name: "weblink"
-        field:
-          label: "weblink"
-          element: "text"
-          placeholder: "Enter link"
-      - name: "website"
-        field:
-          label: "website address"
-          element: "text"
-          placeholder: "Enter address"
