@@ -1,5 +1,10 @@
 ---
-published: false
+published: true
+layout: post
+title: Testing
+author: Shamime
+weblink: "http://www.shamimeboodhoo.com"
+website: www.shamimeboodhoo.com
 ---
 
 ## A New Post
