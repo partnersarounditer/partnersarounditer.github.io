@@ -1,11 +1,12 @@
 ---
-published: false
+published: true
 layout: post
 title: Company Tech Wins News Contract
 author: Company Tech
 weblink: "http://www.sss.com"
 website: www.sss.com
 ---
+
 
 This is a new post.
 
