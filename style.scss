@@ -406,6 +406,9 @@ section {
   right: 3em;
   margin: 0;
   padding: 0;
+  a {
+  color: white;
+  }
   @include media($mobile) {
     display: none;
   }
@@ -414,9 +417,6 @@ section {
   }
 }
 
-.announce a {
-  color: white;
-}
 
 .front-page-welcome {
   background: rgba($pai-green, 0.7);

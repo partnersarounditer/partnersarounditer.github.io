@@ -34,8 +34,10 @@ layout: front-page
       {% if postDateInSecondsInteger > minusSevenDays and forloop.index == 1 %}
 
       <span class="announce">
-        <a href="{{ post.url }}"><p>New article posted {{ post.date | date: "%B %e, %Y" }}</a>
-      </p></span>
+        <a href="{{ post.url }}">
+          <p>New article posted {{ post.date | date: "%B %e, %Y" }}</p>
+          </a>
+      </span>
       {% endif %}
       {% endfor %}
 

@@ -2,8 +2,7 @@
 layout: post
 title: CNIM will manufacture and test the PF Coils on ITER site
 author: CNIM
-weblink: "http://www.cnim.com"
-website: www.cnim.com
+
 published: true
 ---
 
