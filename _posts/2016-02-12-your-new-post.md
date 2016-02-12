@@ -1,6 +1,12 @@
 ---
 published: false
+layout: post
+title: Company Wins News Contract
+author: New company
+weblink: "http://www.sss.com"
+website: www.sss.com
 ---
+
 
 This is a new post. It is a test.
 
@@ -14,5 +20,3 @@ Some text......Some text......Some text......Some text......Some text......Some 
 - list item 1
 - list item 2
 - list item 3
-
-
