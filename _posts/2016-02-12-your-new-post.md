@@ -18,6 +18,6 @@ This is some text.....This is some text.....This is some text.....This is some t
 
 This is some text.....This is some text.....This is some text.....This is some text.....This is some text.....This is some text.....This is some text.....This is some text.....This is some text.....This is some text.....This is some text.....This is some text.....This is some text.....This is some text.....This is some text.....This is some text.....This is some text.....This is some text.....
 
-[Google Search](www.google.com "This is a search")
+[Google](http://www.google.com)
 
 END OF TEXT
