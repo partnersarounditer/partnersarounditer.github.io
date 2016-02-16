@@ -8,5 +8,6 @@ title: Remote Handling
 * [ECA ROBOTICS](/partners/eca-robotics)
 * [ENGIE](/partners/engie)
 * [INGÉNIERIE ET CONSEILS](/partners/ingenierie-et-conseils)
+* [ONET TECHNOLOGIES / COMEX NUCLÉAIRE](/partners/onet-technologies)
 * [SCHNEIDER ELECTRIC](/partners/schneider-electric)
 * [VINCI ENERGIES](/partners/vinci-energies)

@@ -11,6 +11,7 @@ title: Assembly
 * [ECA ROBOTICS](/partners/eca-robotics)
 * [ENGIE](/partners/engie)
 * [INGÉNIERIE ET CONSEILS](/partners/ingenierie-et-conseils)
+* [ONET TECHNOLOGIES / COMEX NUCLÉAIRE](/partners/onet-technologies)
 * [SCHNEIDER ELECTRIC](/partners/schneider-electric)
 * [SOGETI HIGH TECH](/partners/sogeti)
 * [VINCI ENERGIES](/partners/vinci-energies)

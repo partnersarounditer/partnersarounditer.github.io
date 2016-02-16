@@ -8,3 +8,4 @@ title: Information Systems
 * [INGÉNIERIE ET CONSEILS](/partners/ingenierie-et-conseils)
 * [SCHNEIDER ELECTRIC](/partners/schneider-electric)
 * [SOGETI HIGH TECH](/partners/contacts-sogeti)
+* [SOPRA STERIA](/partners/contacts/sopra)

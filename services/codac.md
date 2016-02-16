@@ -6,3 +6,4 @@ title: CODAC
 * [DAHER](/partners/daher)
 * [ENGIE](/partners/engie)
 * [SCHNEIDER ELECTRIC](/partners/schneider-electric)
+* [SOPRA STERIA](/partners/contacts/sopra)
