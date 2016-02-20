@@ -6,6 +6,7 @@ title: Full List of Partners
 # Full List of Partners
 
 * [ACTEMIUM](/partners/actemium)
+* [AIR LIQUIDE](/partners/airliquide)
 * [ALTRAN](/partners/altran)
 * [APAVE](/partners/apave)
 * [AREVA](/partners/areva)
