@@ -2,7 +2,7 @@
 layout: partner
 title: Areva
 spiel: 
-contact: Philippe Van Caenegem
+contact:
 tel: 
 email:
 website: www.areva.com
