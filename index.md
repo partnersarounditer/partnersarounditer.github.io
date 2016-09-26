@@ -108,7 +108,7 @@ PAI members working daily with ITER are fully committed to the success of your p
 
 <section class="front-page-logos">
     <div class="opaque-background-green-2">
-      <h2>PAI Members</h2>
+      <h2>PAI Memberss</h2>
     </div>
     <div class="front-page-info-points">
       <div class="table-inner">
