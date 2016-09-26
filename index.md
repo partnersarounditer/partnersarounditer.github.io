@@ -107,44 +107,43 @@ PAI members working daily with ITER are fully committed to the success of your p
 </section>
 
 <section class="front-page-logos">
-    <div class="opaque-background-green-2">
-      <h2>PAI Members1</h2>
-    </div>
-    <div class="front-page-info-points">
-      <div class="table-inner">
-    <table class="home-page-table">
-      <tr>
-        <td><a href="/partners/airliquide"><img src="assets/images/logos/air_liquide_small.png"></a><td>
-        <td><a href="/partners/altran"><img src="assets/images/logos/altran_small.png"></a></td>
-        <td><a href="/partners/apave"><img src="assets/images/logos/apave_small.png"></a></td>
-        <td><a href="/partners/areva"><img src="assets/images/logos/areva_small.png"></a><td>
-      </tr>
-      <tr>
-        <td><a href="/partners/bertin-technologies"><img src="assets/images/logos/bertin_technologies_small.png"></a><td>
-        <td><a href="/partners/cnim"><img src="assets/images/logos/cnim_small.png"></a></td>
-        <td><a href="/partners/cybernetix"><img src="assets/images/logos/cybernetix_small.png"></a></td>
-        <td><a href="/partners/daher"><img src="assets/images/logos/daher_small.png"></a><td>
-      </tr>
-      <tr>
-        <td><a href="/partners/dassault-systemes"><img src="assets/images/logos/dassault_systemes_small.png"></a><td>
-        <td><a href="partners/eca-robotics"><img src="assets/images/logos/eca_robotics_small.png"></a></td>
-        <td><a href="/partners/engie"><img src="assets/images/logos/engie_small.png"></a></td>
-        <td><a href="/partners/ingenierie-et-conseils"><img src="assets/images/logos/ing_conseils_small.png"></a><td>
-      </tr>
-      <tr>
-        <td><a href="/partners/onet-technologies"><img src="assets/images/logos/onet_small.png"></a><td>
-        <td><a href="/partners/schneider-electric"><img src="assets/images/logos/schneider_electric_small.png"></a></td>
-        <td><a href="/partners/sdms"><img src="assets/images/logos/sdms_small.png"></a></td>
-        <td><a href="/partners/sogeti"><img src="assets/images/logos/sogeti_small.png"></a><td>
-      </tr>
-      <tr>
-        <td><a href="/partners/sopra"><img src="assets/images/logos/sopra_small.png"></a><td>
-        <td><a href="/partners/thales"><img src="assets/images/logos/thales_small.png"></a></td>
-        <td><a href="/partners/vinci-energies"><img src="assets/images/logos/vinci_energies_small.png"></a></td>
-      </tr>
-    </table>
+  <div class="opaque-background-green-2">
+    <h2>PAI Members1</h2>
   </div>
-</div>
-</section>
-</br>
-</div>
+  <div class="front-page-info-points">
+    <div class="table-inner">
+      <table class="home-page-table">
+        <tr>
+          <td><a href="/partners/airliquide"><img src="assets/images/logos/air_liquide_small.png"></a><td>
+            <td><a href="/partners/altran"><img src="assets/images/logos/altran_small.png"></a></td>
+            <td><a href="/partners/apave"><img src="assets/images/logos/apave_small.png"></a></td>
+            <td><a href="/partners/areva"><img src="assets/images/logos/areva_small.png"></a><td>
+            </tr>
+            <tr>
+              <td><a href="/partners/bertin-technologies"><img src="assets/images/logos/bertin_technologies_small.png"></a><td>
+                <td><a href="/partners/cnim"><img src="assets/images/logos/cnim_small.png"></a></td>
+                <td><a href="/partners/cybernetix"><img src="assets/images/logos/cybernetix_small.png"></a></td>
+                <td><a href="/partners/daher"><img src="assets/images/logos/daher_small.png"></a><td>
+                </tr>
+                <tr>
+                  <td><a href="/partners/dassault-systemes"><img src="assets/images/logos/dassault_systemes_small.png"></a><td>
+                    <td><a href="partners/eca-robotics"><img src="assets/images/logos/eca_robotics_small.png"></a></td>
+                    <td><a href="/partners/engie"><img src="assets/images/logos/engie_small.png"></a></td>
+                    <td><a href="/partners/ingenierie-et-conseils"><img src="assets/images/logos/ing_conseils_small.png"></a><td>
+                    </tr>
+                    <tr>
+                      <td><a href="/partners/onet-technologies"><img src="assets/images/logos/onet_small.png"></a><td>
+                        <td><a href="/partners/schneider-electric"><img src="assets/images/logos/schneider_electric_small.png"></a></td>
+                        <td><a href="/partners/sdms"><img src="assets/images/logos/sdms_small.png"></a></td>
+                        <td><a href="/partners/sogeti"><img src="assets/images/logos/sogeti_small.png"></a><td>
+                        </tr>
+                        <tr>
+                          <td><a href="/partners/sopra"><img src="assets/images/logos/sopra_small.png"></a><td>
+                            <td><a href="/partners/thales"><img src="assets/images/logos/thales_small.png"></a></td>
+                            <td><a href="/partners/vinci-energies"><img src="assets/images/logos/vinci_energies_small.png"></a></td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </section>
+              </div>
