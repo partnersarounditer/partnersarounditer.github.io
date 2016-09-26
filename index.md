@@ -106,7 +106,6 @@ PAI members working daily with ITER are fully committed to the success of your p
   </div>
 </section>
 
-```
 <section class="front-page-logos">
   <div class="opaque-background-green-2">
     <h2>PAI Members</h2>
@@ -142,10 +141,5 @@ PAI members working daily with ITER are fully committed to the success of your p
                           <td><a href="/partners/sopra"><img src="assets/images/logos/sopra_small.png"></a><td>
                             <td><a href="/partners/thales"><img src="assets/images/logos/thales_small.png"></a></td>
                             <td><a href="/partners/vinci-energies"><img src="assets/images/logos/vinci_energies_small.png"></a></td>
-                          </tr>
-                        </table>
-                      </div>
-                    </div>
-                  </section>
-                  ```
+        
               </div>
