@@ -141,4 +141,5 @@ PAI members working daily with ITER are fully committed to the success of your p
                           <td><a href="/partners/sopra"><img src="assets/images/logos/sopra_small.png"></a><td>
                             <td><a href="/partners/thales"><img src="assets/images/logos/thales_small.png"></a></td>
                             <td><a href="/partners/vinci-energies"><img src="assets/images/logos/vinci_energies_small.png"></a></td>
+                          </tr>
         
