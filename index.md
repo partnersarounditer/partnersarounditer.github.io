@@ -106,6 +106,7 @@ PAI members working daily with ITER are fully committed to the success of your p
   </div>
 </section>
 
+{::nomarkdown}
 <section class="front-page-logos">
   <div class="opaque-background-green-2">
     <h2>PAI Members1</h2>
@@ -146,4 +147,5 @@ PAI members working daily with ITER are fully committed to the success of your p
                       </div>
                     </div>
                   </section>
+                  {:/nomarkdown}
               </div>
